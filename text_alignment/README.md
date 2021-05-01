@@ -1,3 +1,5 @@
+# How to retrieve the text files for each folio?
+
 The Python script `get_text_per_folio.py` is meant to retrieve the text from each folio of a manuscript, 
 as provided by the Cantus Database. The script requires the path to a CSV file containing the text of 
 the complete manuscript. This CSV file can be obtained through the Cantus DB by following
