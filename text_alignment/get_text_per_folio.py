@@ -20,11 +20,11 @@ def retrieve_text(csvpath):
             folio_text = folio_text + "\n" + chant
         # If we changed folio, 
         # 1. Add the complete text of the previos folio to the MSS Text dictionary
-        # 2. And start a new text (folio_text) with the 8 last words of the last 
-        # chant of the previous folio and the first chant of the new folio
+        # 2. And start a new text (folio_text) with the last chant
+        # the previous folio and the first chant of the new folio
         else:
             mss_text[prev_folio] = folio_text
-            folio_text = ' '.join(prev_chant.split()[-8:]) + "\n" + chant
+            folio_text = prev_chant + "\n" + chant
         # Update the folio number for next iteration
         prev_folio = folio
         prev_chant = chant
