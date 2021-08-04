@@ -11,7 +11,7 @@ We used the default values of the settings of this training job:
 - `patch width = 256`
 - `batch size = 16`
 - We used the maximum amount of memory allowed: `257 GB`. However, we recommend against this. 
-You should try to use the least amount of memory that allows the job to finish (hint: this value is probably around `90GB` or higher).
+You should try to use the least amount of memory that allows the job to finish (hint: this value is probably around `90GB` or higher). Normally, you won't need more than `150 GB` of memory for procesing a maximum of `15k samples` per layer for `3 layers`.
 - It normally takes a bit more than 4 hours to train, so the default setting of `6 hours` is fine.
 
 # Training Data
