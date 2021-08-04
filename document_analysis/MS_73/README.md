@@ -13,7 +13,7 @@ We used the default values of the settings of this training job:
 - `batch size = 16`
 - We used `150 GB` for the memory.
 You should try to use the least amount of memory that allows the job to finish. Normally, you won't need more than `150 GB` of memory for procesing a maximum of `15k` samples per layer for 3 layers. We still need to experiment to find out the minimum amount of memory needed.
-- Although the training was completed in less than `2 hours`, the job remained in the queue for a while before starting.
+- The training was completed in less than `4 hours`, so the default setting of `6 hours` is fine.
 
 # Training Data
 As indicated in the [End-to-End OMR Documentation - Hints section](http://ddmal.music.mcgill.ca/e2e-omr-documentation/hints.html#staff-size-height-and-training):
