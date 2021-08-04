@@ -5,14 +5,15 @@ using the images provided in the `training_data` folder. For processing a music 
 only three models are necessary: one for music symbols, one for staff lines, and one for background (which will include the text).
 
 We used the default values of the settings of this training job:
-- `maximum number of samples per label = 10,000`
-- `epochs = 15`
+- `maximum number of samples per label = 15,000`
+- `epochs = 20`
+- `early stop = 10`
 - `patch height = 256`
 - `patch width = 256`
 - `batch size = 16`
-- We used the maximum amount of memory allowed: `257 GB`. However, we recommend against this. 
+- We used `150 GB` for the memory.
 You should try to use the least amount of memory that allows the job to finish (hint: this value is probably around `90GB` or higher).
-- It normally takes a bit more than 4 hours to train, so the default setting of `6 hours` is fine.
+- Although the training was completed in less than `2 hours`, the job remained in the queue for a while before starting.
 
 # Training Data
 As indicated in the [End-to-End OMR Documentation - Hints section](http://ddmal.music.mcgill.ca/e2e-omr-documentation/hints.html#staff-size-height-and-training):
