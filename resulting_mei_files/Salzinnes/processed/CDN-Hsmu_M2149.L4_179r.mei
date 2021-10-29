@@ -421,7 +421,7 @@
                 <zone xml:id="m-9d098d6d-6056-4810-bcb1-554322954282" ulx="3541" uly="7022" lrx="3607" lry="7068"/>
                 <zone xml:id="m-4e23e284-5f1f-4097-ba79-6931f5aa72d9" ulx="3673" uly="7225" lrx="3749" lry="7528"/>
                 <zone xml:id="m-1dab7b8f-c8d1-4d26-ae07-fc1d1d37a3cc" ulx="3647" uly="6976" lrx="3713" lry="7022"/>
-                <zone xml:id="m-1f19a112-bc9c-446c-87b7-8667aa8c650c" ulx="3749" uly="7225" lrx="3911" lry="7528"/>
+                <zone xml:id="m-1f19a112-bc9c-446c-87b7-8667aa8c650c" ulx="3749" uly="7225" lrx="3927" lry="7500"/>
                 <zone xml:id="m-35ea37dd-c725-4a0a-9b66-d8aea5fe8ca0" ulx="3742" uly="7021" lrx="3808" lry="7067"/>
                 <zone xml:id="m-f298d6ca-4d33-4278-8aab-383df19e8b47" ulx="3858" uly="7066" lrx="3924" lry="7112"/>
                 <zone xml:id="m-46eb5a67-e965-48bd-afcf-cfaecba6a6fd" ulx="3911" uly="7225" lrx="4122" lry="7528"/>
@@ -457,6 +457,12 @@
                 <zone xml:id="zone-0000000914343121" ulx="4685" uly="6658" lrx="4806" lry="6979"/>
                 <zone xml:id="zone-0000001267158483" ulx="1444" uly="7262" lrx="1664" lry="7628"/>
                 <zone xml:id="zone-0000001838399027" ulx="3911" uly="7233" lrx="4012" lry="7546"/>
+                <zone xml:id="zone-0000000435843725" ulx="3859" uly="7066" lrx="3925" lry="7112"/>
+                <zone xml:id="zone-0000000913552068" ulx="4148" uly="7412" lrx="4348" lry="7612"/>
+                <zone xml:id="zone-0000001755096439" ulx="3980" uly="7111" lrx="4046" lry="7157"/>
+                <zone xml:id="zone-0000000832474970" ulx="3938" uly="7249" lrx="4138" lry="7510"/>
+                <zone xml:id="zone-0000001483050634" ulx="4037" uly="7157" lrx="4103" lry="7203"/>
+                <zone xml:id="zone-0000000743054654" ulx="4220" uly="7220" lrx="4420" lry="7420"/>
             </surface>
         </facsimile>
         <body>
@@ -1613,17 +1619,19 @@
                                     </neume>
                                     <syl xml:id="m-ecc14b08-05d4-45db-b065-9db0e188a1fb" facs="#m-4e23e284-5f1f-4097-ba79-6931f5aa72d9">o</syl>
                                 </syllable>
-                                <syllable xml:id="m-3bdcde14-cb52-4279-9eda-30fb185147b8">
-                                    <neume xml:id="m-ac00441d-cd63-4e52-897c-db1b6f7de450">
+                                <syllable xml:id="syllable-0000001120481570">
+                                    <neume xml:id="neume-0000001296970026">
                                         <nc xml:id="m-c9d635ae-35b4-45f5-bf18-39f3d278fc18" facs="#m-35ea37dd-c725-4a0a-9b66-d8aea5fe8ca0" oct="3" pname="d"/>
+                                        <nc xml:id="nc-0000001167364140" facs="#zone-0000000435843725" oct="3" pname="c"/>
                                     </neume>
                                     <syl xml:id="m-540328ae-d7ed-446a-8394-725964f3ed41" facs="#m-1f19a112-bc9c-446c-87b7-8667aa8c650c">u</syl>
                                 </syllable>
-                                <syllable xml:id="syllable-0000000833669211">
-                                    <neume xml:id="m-10a1daea-40dd-486c-b6bc-2001fe37f35d">
-                                        <nc xml:id="m-f203bea9-64b5-44b9-8e69-93ed97a7d493" facs="#m-f298d6ca-4d33-4278-8aab-383df19e8b47" oct="3" pname="c"/>
+                                <syllable xml:id="syllable-0000002070866859">
+                                    <syl xml:id="syl-0000001814790020" facs="#zone-0000000832474970">ae</syl>
+                                    <neume xml:id="neume-0000000226412280">
+                                        <nc xml:id="nc-0000000365566217" facs="#zone-0000001755096439" oct="2" pname="b"/>
+                                        <nc xml:id="nc-0000001826672835" facs="#zone-0000001483050634" oct="2" pname="a" tilt="s"/>
                                     </neume>
-                                    <syl xml:id="syl-0000001196713138" facs="#zone-0000001838399027">a</syl>
                                 </syllable>
                             </layer>
                         </staff>
