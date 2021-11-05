@@ -643,6 +643,14 @@
                 <zone xml:id="zone-0000001058421780" ulx="5350" uly="8186" lrx="5550" lry="8386"/>
                 <zone xml:id="zone-0000001865362416" ulx="2955" uly="7811" lrx="3025" lry="7860"/>
                 <zone xml:id="zone-0000000769542605" ulx="3140" uly="7842" lrx="3340" lry="8042"/>
+                <zone xml:id="zone-0000001786439209" ulx="6753" uly="8062" lrx="6823" lry="8111"/>
+                <zone xml:id="zone-0000001416493364" ulx="6938" uly="8120" lrx="7138" lry="8320"/>
+                <zone xml:id="zone-0000002100891710" ulx="6687" uly="8012" lrx="6757" lry="8061"/>
+                <zone xml:id="zone-0000001305655721" ulx="6639" uly="8105" lrx="6905" lry="8361"/>
+                <zone xml:id="zone-0000000580137013" ulx="6858" uly="8062" lrx="6928" lry="8111"/>
+                <zone xml:id="zone-0000001654601176" ulx="4367" uly="24923" lrx="4431" lry="4822"/>
+                <zone xml:id="zone-0000001598951244" ulx="3706" uly="21939" lrx="3776" lry="7810"/>
+                <zone xml:id="zone-0000000637029853" ulx="6861" uly="8045" lrx="6931" lry="8094"/>
             </surface>
         </facsimile>
         <body>
@@ -684,7 +692,7 @@
                                 <syllable xml:id="m-1dea84b8-b60b-4222-bc0f-8c76d3b88219">
                                     <syl xml:id="m-13540a0d-4475-46b6-97c2-8ca5b7e3d70a" facs="#m-97760a27-e01b-4485-bbd8-8ad73fa6ad7a">mo</syl>
                                     <neume xml:id="m-7e320023-96c4-49c3-98db-3ca0b100fd8e">
-                                        <nc xml:id="m-4c76271f-cb6a-4554-b66d-b7a172ac6cee" facs="#m-cd659013-2590-44c1-b2c5-1c476c9b1171" oct="3" pname="c" tilt="n"/>
+                                        <nc xml:id="m-4c76271f-cb6a-4554-b66d-b7a172ac6cee" facs="#m-cd659013-2590-44c1-b2c5-1c476c9b1171" oct="3" pname="c"/>
                                         <nc xml:id="m-4485d2f5-ae6b-47fd-8431-d4f89296caf9" facs="#m-c6b962a4-83f7-4dba-a5ee-4cc1fcc2401a" oct="2" pname="b"/>
                                     </neume>
                                 </syllable>
@@ -1277,6 +1285,7 @@
                                         <nc xml:id="m-7afe618c-774b-446b-a2ce-3a0f6f01728e" facs="#m-d584ed23-7add-46bd-ba01-d165dfcf2ab2" oct="2" pname="g"/>
                                     </neume>
                                 </syllable>
+                                <accid xml:id="accid-0000001537879455" facs="#zone-0000001654601176" accid="f"/>
                                 <syllable xml:id="syllable-0000001190876290">
                                     <syl xml:id="m-f85d4f81-286f-4dc5-b5eb-c04f587ab6d7" facs="#m-51547a93-b936-4e4a-83b8-b76e455791b7">nit</syl>
                                     <neume xml:id="neume-0000001378103436">
@@ -1306,9 +1315,9 @@
                                 <syllable xml:id="syllable-0000001241085062">
                                     <syl xml:id="m-c8c7a663-42c5-4841-ac81-9092eeba53f9" facs="#m-e81b9141-4c4a-418e-a264-21b63a710517">me</syl>
                                     <neume xml:id="neume-0000001688015761">
-                                        <nc xml:id="nc-0000001809958631" facs="#zone-0000000509726954" oct="3" pname="c" tilt="s"/>
                                         <nc xml:id="m-9dc7e314-5a3a-4739-b010-79eac3b6836c" facs="#m-ae5ea004-933e-4d44-9114-7f6f7f6d7833" oct="3" pname="c"/>
                                         <nc xml:id="m-30463b74-24e4-4ba3-b12c-e361576e58e1" facs="#m-1b52f014-151c-4d88-af76-f911c972467f" oct="3" pname="c"/>
+                                        <nc xml:id="nc-0000001809958631" facs="#zone-0000000509726954" oct="3" pname="c" tilt="s"/>
                                     </neume>
                                 </syllable>
                                 <syllable xml:id="m-ebac9b1d-54b3-469a-b46b-691feb29b870">
@@ -1747,6 +1756,7 @@
                                         <nc xml:id="m-fb0df0a1-2cd4-4bc4-911a-6d3804b585e7" facs="#m-2492beb9-7458-4941-b392-b74e60c12c79" oct="3" pname="d"/>
                                     </neume>
                                 </syllable>
+                                <accid xml:id="accid-0000000001387729" facs="#zone-0000001598951244" accid="f"/>
                                 <syllable xml:id="syllable-0000000196322605">
                                     <syl xml:id="syl-0000000718402963" facs="#zone-0000001791259910">nit</syl>
                                     <neume xml:id="neume-0000001148057519">
@@ -1826,13 +1836,14 @@
                                         <nc xml:id="nc-0000000605963564" facs="#zone-0000000015119980" oct="2" pname="g" tilt="s"/>
                                     </neume>
                                 </syllable>
-                                <syllable xml:id="m-5b7ca25b-b170-4b70-9a5a-eba57f6ba753">
-                                    <syl xml:id="m-80ab5013-1dbf-43a1-ab84-7913bacdfb7e" facs="#m-b56c1ee0-6208-4e65-a6ea-ba191094c81b">ris</syl>
-                                    <neume xml:id="m-423bc679-fe29-4626-b665-4d1fee2ec9d5">
-                                        <nc xml:id="m-01a8a781-d2df-4498-9269-fd1c3e0efdb9" facs="#m-a5a3decd-5466-4425-a470-01e17369eb0a" oct="2" pname="g"/>
-                                        <nc xml:id="m-940715ab-b624-44fc-ad70-0697acce2e6a" facs="#m-bcbd6dfe-35a1-4f8c-a7fa-664e4eb43b37" oct="2" pname="f"/>
+                                <syllable xml:id="syllable-0000001072872540">
+                                    <syl xml:id="syl-0000001526660046" facs="#zone-0000001305655721">ris</syl>
+                                    <neume xml:id="neume-0000000910505266">
+                                        <nc xml:id="nc-0000002102515944" facs="#zone-0000002100891710" oct="2" pname="g"/>
+                                        <nc xml:id="nc-0000000366715699" facs="#zone-0000001786439209" oct="2" pname="f"/>
                                     </neume>
                                 </syllable>
+                                <custos facs="#zone-0000000637029853" oct="2" pname="f" xml:id="custos-0000001924843390"/>
                             </layer>
                         </staff>
                     </section>
