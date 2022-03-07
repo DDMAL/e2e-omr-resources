@@ -1098,6 +1098,9 @@
                 <zone xml:id="zone-0000002103038339" ulx="2915" uly="4612" lrx="2955" lry="4640"/>
                 <zone xml:id="zone-0000000000085340" ulx="3544" uly="4549" lrx="3584" lry="4577"/>
                 <zone xml:id="zone-0000001148449246" ulx="3871" uly="5243" lrx="3909" lry="5270"/>
+                <zone xml:id="zone-0000000369299267" ulx="3886" uly="1233" lrx="3925" lry="1260"/>
+                <zone xml:id="zone-0000000455634137" ulx="3908" uly="4237" lrx="3948" lry="4265"/>
+                <zone xml:id="zone-0000000194269442" ulx="3867" uly="5236" lrx="3905" lry="5263"/>
             </surface>
         </facsimile>
         <body>
@@ -1555,7 +1558,7 @@
                                     </neume>
                                 </syllable>
                                 <divLine xml:id="dline-0000000159495292" facs="#zone-0000001235922323" form="maxima"/>
-                                <syllable xml:id="syllable-0000001431056539">
+                                <syllable xml:id="syllable-0000001431056539" precedes="#m-c57d8620-b727-4854-b332-cbfbb02cd745">
                                     <syl xml:id="syl-0000000739924062" facs="#zone-0000001181909425">est</syl>
                                     <neume xml:id="m-1f3471ac-2049-49d0-b3fd-28d122720bcb">
                                         <nc xml:id="m-69d00dea-fcc9-401f-98ae-9b981b7dd31f" facs="#m-51699f34-031e-473c-bd94-9d09b964a771" oct="1" pname="b"/>
@@ -1566,9 +1569,12 @@
                                         <nc xml:id="m-35e64b10-cfb2-4104-a6cb-b83f063f3969" facs="#zone-0000001698740356" oct="2" pname="d" ligated="true"/>
                                         <nc xml:id="m-1c36c73b-174f-4515-8e4a-2766daf1474a" facs="#m-074b91e3-23f7-4397-9c07-20415a75afaa" oct="2" pname="e"/>
                                     </neume>
-                                    <custos facs="#m-386d869d-d581-4303-b8b7-ef2b61e8a5f6" oct="2" pname="f" xml:id="m-71545d71-a97a-4ff3-a9b0-e9fb774cca41"/>
-                                    <sb n="1" facs="#m-d298f741-6954-43f6-a6d5-d7f853a5fa8e" xml:id="m-62ac4e9c-bf0c-40ed-809d-716ec2bcc3c9"/>
-                                    <clef xml:id="m-a23c177a-21e3-4cdf-ad1d-914cca9b4602" facs="#m-3bfe6174-827b-434e-b9c0-dfaf5544abca" shape="C" line="4"/>
+                                    <divLine xml:id="dline-0000000114281752" facs="#zone-0000000369299267" form="maxima"/>
+                                </syllable>
+                                <custos facs="#m-386d869d-d581-4303-b8b7-ef2b61e8a5f6" oct="2" pname="f" xml:id="m-71545d71-a97a-4ff3-a9b0-e9fb774cca41"/>
+                                <sb n="1" facs="#m-d298f741-6954-43f6-a6d5-d7f853a5fa8e" xml:id="m-62ac4e9c-bf0c-40ed-809d-716ec2bcc3c9"/>
+                                <clef xml:id="m-a23c177a-21e3-4cdf-ad1d-914cca9b4602" facs="#m-3bfe6174-827b-434e-b9c0-dfaf5544abca" shape="C" line="4"/>
+                                <syllable xml:id="m-c57d8620-b727-4854-b332-cbfbb02cd745" follows="#syllable-0000001431056539">
                                     <neume xml:id="m-f16fc10e-dd61-4dd6-ac30-7e1d75ee3e6d">
                                         <nc xml:id="m-df3e710c-3a82-4eef-a926-7cd8da8d4fd2" facs="#m-27a213be-797b-4c44-92d5-af06a2e6e444" oct="2" pname="f"/>
                                         <nc xml:id="m-f727faa9-b537-4fc8-a11f-e80699e82d0c" facs="#m-ce5e1b9f-9d85-41fc-bb0c-831ac4ea8420" oct="2" pname="g"/>
@@ -2350,7 +2356,7 @@
                                         <nc xml:id="nc-0000000727657706" facs="#zone-0000000771207137" oct="2" pname="f"/>
                                     </neume>
                                 </syllable>
-                                <syllable xml:id="m-f2dca3d6-5755-490d-a94d-4a675340b261" precedes="#m-a11e8ac2-e83f-4e91-8f13-883c1a0e57a3">
+                                <syllable xml:id="m-f2dca3d6-5755-490d-a94d-4a675340b261" precedes="#m-ee0059a6-aa32-4413-ac14-1d3c69015a7f">
                                     <syl xml:id="m-f690976e-aa19-4cf3-8aa0-04a1ab94a8b7" facs="#m-553d59fc-a416-46c4-ba65-1fbe9c3caca1">re</syl>
                                     <neume xml:id="m-2b3839d4-823f-401a-a8ef-8bd2c7ad0219">
                                         <nc xml:id="m-6e651da5-779d-4418-8ca0-b69191540ef4" facs="#m-d7c81747-33e5-4ea3-a566-260a88ea5dd0" oct="2" pname="f" tilt="n"/>
@@ -2358,7 +2364,7 @@
                                     </neume>
                                 </syllable>
                                 <divLine xml:id="dline-0000001400766766" facs="#zone-0000001446567746" form="maxima"/>
-                                <syllable xml:id="m-ee0059a6-aa32-4413-ac14-1d3c69015a7f">
+                                <syllable xml:id="m-ee0059a6-aa32-4413-ac14-1d3c69015a7f" follows="#m-f2dca3d6-5755-490d-a94d-4a675340b261">
                                     <syl xml:id="m-2dda7fd7-058c-4dd8-ad0f-1202ac5dbbfe" facs="#m-cc13dd55-7d2c-42be-ac7c-55270ce4aaa0">Hoc</syl>
                                     <neume xml:id="neume-0000001720415141">
                                         <nc xml:id="m-5afa4765-2ba0-4a62-8a72-fe1ed50244fa" facs="#m-ec0a5ce2-f074-4312-8288-e9b604fb5b8b" oct="3" pname="c"/>
@@ -2800,15 +2806,18 @@
                                         <nc xml:id="m-29d2f473-34d9-4d87-a8f9-f819df327889" facs="#m-751ef956-8819-4a7f-a6ff-2821649407c0" oct="2" pname="a" curve="c"/>
                                     </neume>
                                 </syllable>
-                                <syllable xml:id="m-77cffb50-53f9-4ed6-a936-d74298c15ddf">
+                                <syllable xml:id="m-77cffb50-53f9-4ed6-a936-d74298c15ddf" precedes="#m-b46e11fe-0dcd-4f31-a2dd-c406733507e0">
                                     <syl xml:id="m-93541766-782c-447a-9430-ce8f401c1e7e" facs="#m-32bb69e5-1583-4456-afd9-8560190bd8bd">le</syl>
                                     <neume xml:id="m-9ec7de84-339a-4f63-bbb4-871f635a0943">
                                         <nc xml:id="m-f1423d52-7234-4e2f-8716-94c78865d0d1" facs="#m-ec5f44f4-3f8b-4504-b6fd-d10548819446" oct="2" pname="g" tilt="n"/>
                                         <nc xml:id="m-df9c28a8-c291-4777-aa90-7e8f8ef39e18" facs="#m-e4b7f159-55f9-416f-8ff1-0858a9b49919" oct="2" pname="f"/>
                                     </neume>
-                                    <custos facs="#m-7c4c9f96-4730-4e46-b955-26e0bf5027c7" oct="2" pname="g" xml:id="m-873cd327-50fa-4b23-8ba2-62b149a1a74c"/>
-                                    <sb n="1" facs="#m-e23de59c-0a7d-4b72-aa77-317cd9e086f9" xml:id="m-c11dccd4-a1bb-4d1f-960b-b721427171be"/>
-                                    <clef xml:id="m-44b5e50d-f00e-4e18-b74e-70bc51869932" facs="#m-dba383b4-5b17-4a57-a64d-651c892cae8c" shape="C" line="4"/>
+                                    <divLine xml:id="dline-0000000980008996" facs="#zone-0000000455634137" form="maxima"/>
+                                </syllable>
+                                <custos facs="#m-7c4c9f96-4730-4e46-b955-26e0bf5027c7" oct="2" pname="g" xml:id="m-873cd327-50fa-4b23-8ba2-62b149a1a74c"/>
+                                <sb n="1" facs="#m-e23de59c-0a7d-4b72-aa77-317cd9e086f9" xml:id="m-c11dccd4-a1bb-4d1f-960b-b721427171be"/>
+                                <clef xml:id="m-44b5e50d-f00e-4e18-b74e-70bc51869932" facs="#m-dba383b4-5b17-4a57-a64d-651c892cae8c" shape="C" line="4"/>
+                                <syllable xml:id="m-b46e11fe-0dcd-4f31-a2dd-c406733507e0" follows="#m-77cffb50-53f9-4ed6-a936-d74298c15ddf">
                                     <neume xml:id="neume-0000000306864706">
                                         <nc xml:id="m-2d923f4e-5906-4213-83e1-8237ec89b84c" facs="#m-8e54891e-4b58-4398-823d-6da437a75d95" oct="2" pname="g"/>
                                         <nc xml:id="nc-0000000432027756" facs="#zone-0000000784285532" oct="2" pname="a"/>
@@ -2938,7 +2947,7 @@
                                         <nc xml:id="m-687279ae-86bb-491d-baa5-a47f30c0d8b9" facs="#zone-0000000566229683" oct="2" pname="f" ligated="false"/>
                                     </neume>
                                 </syllable>
-                                <syllable xml:id="m-7d9cf757-efef-4414-80e6-53767fed59a6" precedes="#m-0b04c3b6-5bf8-4820-a0c9-ab4524dd4b6e">
+                                <syllable xml:id="m-7d9cf757-efef-4414-80e6-53767fed59a6" precedes="#syllable-0000001264687037">
                                     <syl xml:id="m-f4f6f8ef-b08a-41f5-acda-63edd91a6ee7" facs="#m-3b419a9b-8f86-4ca6-ba61-6174c8f326a5">ret</syl>
                                     <neume xml:id="m-1b84677e-7b8b-450b-85e2-2e22a9c528a3">
                                         <nc xml:id="m-5ead393e-2abc-4bed-9a01-33020d408c7b" facs="#m-4bd04838-c657-4584-9b15-6ad35cab9777" oct="2" pname="f" tilt="s"/>
@@ -2947,7 +2956,7 @@
                                 <divLine xml:id="dline-0000001711597445" facs="#zone-0000000000085340" form="maxima"/>
                                 <sb n="1" facs="#m-fc647883-a822-448e-bc23-5a9503cef855" xml:id="m-fe16f514-87d6-470e-805b-113f96ec513e"/>
                                 <clef xml:id="clef-0000000050548202" facs="#zone-0000001367296476" shape="C" line="3"/>
-                                <syllable xml:id="syllable-0000001264687037">
+                                <syllable xml:id="syllable-0000001264687037" follows="#m-7d9cf757-efef-4414-80e6-53767fed59a6">
                                     <syl xml:id="syl-0000001029222591" facs="#zone-0000000814715185">Pro</syl>
                                     <neume xml:id="neume-0000001839343742">
                                         <nc xml:id="nc-0000001601371560" facs="#zone-0000001028608502" oct="3" pname="c" tilt="s"/>
@@ -3225,7 +3234,7 @@
                                         <nc xml:id="m-e4186b54-3cc7-40e3-8e7d-372ffe0b67eb" facs="#m-63f1824c-5664-4327-b5a0-ae850452ea98" oct="2" pname="b"/>
                                     </neume>
                                 </syllable>
-                                <divLine xml:id="dline-0000001462392418" facs="#zone-0000001148449246" form="maxima"/>
+                                <divLine xml:id="dline-0000001164456941" facs="#zone-0000000194269442" form="maxima"/>
                             </layer>
                         </staff>
                     </section>
