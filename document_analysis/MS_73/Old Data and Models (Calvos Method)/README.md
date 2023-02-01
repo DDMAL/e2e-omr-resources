@@ -1,7 +1,6 @@
 # Models
 
-The models were generated with [Paco's Method](https://github.com/DDMAL/Calvo_classifier/tree/sample_generator#mode-of-use-for-training-the-model) (currently outside of Rodan), 
-using the images provided in the `training_data` folder. For processing a music document with staff lines and text,
+The models were generated with [Calvo's Method](https://github.com/DDMAL/Calvo_classifier/tree/sample_generator#mode-of-use-for-training-the-model) (outside of Rodan), using the images provided in the `training_data` folder. For processing a music document with staff lines and text,
 only three models are necessary: one for music symbols, one for staff lines, and one for background (which will include the text).
 
 We used the default values of the settings of this training job:
