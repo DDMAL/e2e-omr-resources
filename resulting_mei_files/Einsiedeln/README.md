@@ -6,6 +6,6 @@ The naming convention of these files is: siglum_folio number. Example for folio 
 
 There are three sets of files:
   
-    The files as obtained by the OMR workflow, before being corrected by a user in Neon. These are found the folder ready_for_neon.
-    The files corrected by a user in Neon. These are found in the folder processed.
-    The same files were then double-checked by an expert (also using the Neon editor). These are found in the folder reviewed.
+- The files as obtained by the OMR workflow, before being corrected by a user in Neon. These are found the folder `ready_for_neon`.
+- The files corrected by a user in Neon. These are found in the folder `Processed`.
+- The same files were then double-checked by an expert (also using the Neon editor). These are found in the folder `Reviewed_once`.
