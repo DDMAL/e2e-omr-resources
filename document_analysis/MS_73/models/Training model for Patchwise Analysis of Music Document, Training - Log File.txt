@@ -1,0 +1,648 @@
+2023-01-16 00:48:20,270 - rodan.jobs.Paco_classifier.fast_paco_trainer - Creating data generators...
+2023-01-16 00:48:20,271 - rodan.jobs.Paco_classifier.fast_paco_trainer - Training a new model for label #0
+2023-01-16 00:48:27,856 - rodan.jobs.Paco_classifier.fast_paco_trainer - /usr/local/lib/python3.7/dist-packages/tensorflow/python/keras/optimizer_v2/optimizer_v2.py:375: UserWarning: The `lr` argument is deprecated, use `learning_rate` instead.
+  "The `lr` argument is deprecated, use `learning_rate` instead.")
+2023-01-16 00:48:28,203 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 0 (Background)
+2023-01-16 00:48:28,318 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 3
+2023-01-16 00:48:28,318 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 2
+2023-01-16 00:48:28,318 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 1
+2023-01-16 00:48:28,318 - rodan.jobs.Paco_classifier.fast_paco_trainer - Init generator for layer rgba PNG - Layer 0 (Background)
+2023-01-16 00:48:32,437 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 1/50
+2023-01-16 00:56:14,049 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 0 (Background)
+2023-01-16 00:56:14,058 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 3
+2023-01-16 00:56:14,058 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 2
+2023-01-16 00:56:14,058 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 1
+2023-01-16 00:56:14,058 - rodan.jobs.Paco_classifier.fast_paco_trainer - Init generator for layer rgba PNG - Layer 0 (Background)
+2023-01-16 00:56:19,807 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 467s - loss: 0.1443 - accuracy: 0.9402 - val_loss: 0.0650 - val_accuracy: 0.9701
+2023-01-16 00:56:19,808 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00001: val_accuracy improved from -inf to 0.97015, saving model to /tmp/tmpjs1hh4sf/8c82f44c-d054-4ca8-afb0-4403c73c387b.hdf5
+2023-01-16 00:56:19,977 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 2/50
+2023-01-16 01:03:54,088 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 454s - loss: 0.0519 - accuracy: 0.9772 - val_loss: 0.0361 - val_accuracy: 0.9817
+2023-01-16 01:03:54,089 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00002: val_accuracy improved from 0.97015 to 0.98170, saving model to /tmp/tmpjs1hh4sf/8c82f44c-d054-4ca8-afb0-4403c73c387b.hdf5
+2023-01-16 01:03:54,234 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 3/50
+2023-01-16 01:11:28,346 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 454s - loss: 0.0446 - accuracy: 0.9804 - val_loss: 0.0379 - val_accuracy: 0.9840
+2023-01-16 01:11:28,347 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00003: val_accuracy improved from 0.98170 to 0.98396, saving model to /tmp/tmpjs1hh4sf/8c82f44c-d054-4ca8-afb0-4403c73c387b.hdf5
+2023-01-16 01:11:28,478 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 4/50
+2023-01-16 01:19:02,652 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 454s - loss: 0.0380 - accuracy: 0.9831 - val_loss: 0.0362 - val_accuracy: 0.9836
+2023-01-16 01:19:02,653 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00004: val_accuracy did not improve from 0.98396
+2023-01-16 01:19:02,656 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 5/50
+2023-01-16 01:26:37,073 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 454s - loss: 0.0333 - accuracy: 0.9846 - val_loss: 0.0325 - val_accuracy: 0.9852
+2023-01-16 01:26:37,075 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00005: val_accuracy improved from 0.98396 to 0.98524, saving model to /tmp/tmpjs1hh4sf/8c82f44c-d054-4ca8-afb0-4403c73c387b.hdf5
+2023-01-16 01:26:37,264 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 6/50
+2023-01-16 01:34:11,794 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 455s - loss: 0.0318 - accuracy: 0.9849 - val_loss: 0.0236 - val_accuracy: 0.9891
+2023-01-16 01:34:11,795 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00006: val_accuracy improved from 0.98524 to 0.98913, saving model to /tmp/tmpjs1hh4sf/8c82f44c-d054-4ca8-afb0-4403c73c387b.hdf5
+2023-01-16 01:34:11,941 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 7/50
+2023-01-16 01:41:45,994 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 454s - loss: 0.0310 - accuracy: 0.9856 - val_loss: 0.0270 - val_accuracy: 0.9874
+2023-01-16 01:41:45,995 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00007: val_accuracy did not improve from 0.98913
+2023-01-16 01:41:45,998 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 8/50
+2023-01-16 01:49:19,696 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 454s - loss: 0.0280 - accuracy: 0.9874 - val_loss: 0.0275 - val_accuracy: 0.9868
+2023-01-16 01:49:19,698 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00008: val_accuracy did not improve from 0.98913
+2023-01-16 01:49:19,700 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 9/50
+2023-01-16 01:56:53,824 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 454s - loss: 0.0265 - accuracy: 0.9880 - val_loss: 0.0406 - val_accuracy: 0.9834
+2023-01-16 01:56:53,825 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00009: val_accuracy did not improve from 0.98913
+2023-01-16 01:56:53,828 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 10/50
+2023-01-16 02:04:27,538 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 454s - loss: 0.0266 - accuracy: 0.9881 - val_loss: 0.0292 - val_accuracy: 0.9868
+2023-01-16 02:04:27,540 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00010: val_accuracy did not improve from 0.98913
+2023-01-16 02:04:27,543 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 11/50
+2023-01-16 02:12:01,309 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 454s - loss: 0.0261 - accuracy: 0.9882 - val_loss: 0.0216 - val_accuracy: 0.9900
+2023-01-16 02:12:01,312 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00011: val_accuracy improved from 0.98913 to 0.99001, saving model to /tmp/tmpjs1hh4sf/8c82f44c-d054-4ca8-afb0-4403c73c387b.hdf5
+2023-01-16 02:12:01,490 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 12/50
+2023-01-16 02:19:35,067 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 454s - loss: 0.0248 - accuracy: 0.9887 - val_loss: 0.0185 - val_accuracy: 0.9912
+2023-01-16 02:19:35,071 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00012: val_accuracy improved from 0.99001 to 0.99122, saving model to /tmp/tmpjs1hh4sf/8c82f44c-d054-4ca8-afb0-4403c73c387b.hdf5
+2023-01-16 02:19:35,308 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 13/50
+2023-01-16 02:27:08,580 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 453s - loss: 0.0283 - accuracy: 0.9874 - val_loss: 0.0274 - val_accuracy: 0.9872
+2023-01-16 02:27:08,581 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00013: val_accuracy did not improve from 0.99122
+2023-01-16 02:27:08,583 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 14/50
+2023-01-16 02:34:42,250 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 454s - loss: 0.0232 - accuracy: 0.9891 - val_loss: 0.0262 - val_accuracy: 0.9873
+2023-01-16 02:34:42,252 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00014: val_accuracy did not improve from 0.99122
+2023-01-16 02:34:42,254 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 15/50
+2023-01-16 02:42:16,020 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 454s - loss: 0.0236 - accuracy: 0.9888 - val_loss: 0.0198 - val_accuracy: 0.9907
+2023-01-16 02:42:16,022 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00015: val_accuracy did not improve from 0.99122
+2023-01-16 02:42:16,025 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 16/50
+2023-01-16 02:49:49,705 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 454s - loss: 0.0228 - accuracy: 0.9891 - val_loss: 0.0194 - val_accuracy: 0.9906
+2023-01-16 02:49:49,707 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00016: val_accuracy did not improve from 0.99122
+2023-01-16 02:49:49,710 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 17/50
+2023-01-16 02:57:23,331 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 454s - loss: 0.0217 - accuracy: 0.9896 - val_loss: 0.0197 - val_accuracy: 0.9907
+2023-01-16 02:57:23,333 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00017: val_accuracy did not improve from 0.99122
+2023-01-16 02:57:23,335 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 18/50
+2023-01-16 03:04:56,478 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 453s - loss: 0.0218 - accuracy: 0.9902 - val_loss: 0.0266 - val_accuracy: 0.9897
+2023-01-16 03:04:56,479 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00018: val_accuracy did not improve from 0.99122
+2023-01-16 03:04:56,481 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 19/50
+2023-01-16 03:12:29,665 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 453s - loss: 0.0237 - accuracy: 0.9904 - val_loss: 0.0194 - val_accuracy: 0.9918
+2023-01-16 03:12:29,666 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00019: val_accuracy improved from 0.99122 to 0.99180, saving model to /tmp/tmpjs1hh4sf/8c82f44c-d054-4ca8-afb0-4403c73c387b.hdf5
+2023-01-16 03:12:29,837 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 20/50
+2023-01-16 03:20:03,202 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 453s - loss: 0.0209 - accuracy: 0.9914 - val_loss: 0.0207 - val_accuracy: 0.9914
+2023-01-16 03:20:03,206 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00020: val_accuracy did not improve from 0.99180
+2023-01-16 03:20:03,208 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 21/50
+2023-01-16 03:27:36,107 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 453s - loss: 0.0200 - accuracy: 0.9917 - val_loss: 0.0166 - val_accuracy: 0.9929
+2023-01-16 03:27:36,108 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00021: val_accuracy improved from 0.99180 to 0.99293, saving model to /tmp/tmpjs1hh4sf/8c82f44c-d054-4ca8-afb0-4403c73c387b.hdf5
+2023-01-16 03:27:36,274 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 22/50
+2023-01-16 03:35:08,981 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 453s - loss: 0.0198 - accuracy: 0.9918 - val_loss: 0.0252 - val_accuracy: 0.9896
+2023-01-16 03:35:08,983 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00022: val_accuracy did not improve from 0.99293
+2023-01-16 03:35:08,986 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 23/50
+2023-01-16 03:42:41,554 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 453s - loss: 0.0198 - accuracy: 0.9919 - val_loss: 0.0196 - val_accuracy: 0.9920
+2023-01-16 03:42:41,556 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00023: val_accuracy did not improve from 0.99293
+2023-01-16 03:42:41,558 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 24/50
+2023-01-16 03:50:13,767 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0196 - accuracy: 0.9919 - val_loss: 0.0193 - val_accuracy: 0.9919
+2023-01-16 03:50:13,768 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00024: val_accuracy did not improve from 0.99293
+2023-01-16 03:50:13,771 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 25/50
+2023-01-16 03:57:45,868 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0216 - accuracy: 0.9913 - val_loss: 0.0161 - val_accuracy: 0.9934
+2023-01-16 03:57:45,871 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00025: val_accuracy improved from 0.99293 to 0.99340, saving model to /tmp/tmpjs1hh4sf/8c82f44c-d054-4ca8-afb0-4403c73c387b.hdf5
+2023-01-16 03:57:46,085 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 26/50
+2023-01-16 04:05:18,124 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0192 - accuracy: 0.9921 - val_loss: 0.0186 - val_accuracy: 0.9921
+2023-01-16 04:05:18,125 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00026: val_accuracy did not improve from 0.99340
+2023-01-16 04:05:18,127 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 27/50
+2023-01-16 04:12:49,659 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0190 - accuracy: 0.9921 - val_loss: 0.0152 - val_accuracy: 0.9936
+2023-01-16 04:12:49,660 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00027: val_accuracy improved from 0.99340 to 0.99364, saving model to /tmp/tmpjs1hh4sf/8c82f44c-d054-4ca8-afb0-4403c73c387b.hdf5
+2023-01-16 04:12:49,811 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 28/50
+2023-01-16 04:20:21,335 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0187 - accuracy: 0.9922 - val_loss: 0.0128 - val_accuracy: 0.9948
+2023-01-16 04:20:21,339 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00028: val_accuracy improved from 0.99364 to 0.99483, saving model to /tmp/tmpjs1hh4sf/8c82f44c-d054-4ca8-afb0-4403c73c387b.hdf5
+2023-01-16 04:20:21,504 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 29/50
+2023-01-16 04:27:53,239 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0185 - accuracy: 0.9923 - val_loss: 0.0157 - val_accuracy: 0.9936
+2023-01-16 04:27:53,240 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00029: val_accuracy did not improve from 0.99483
+2023-01-16 04:27:53,243 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 30/50
+2023-01-16 04:35:25,047 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0188 - accuracy: 0.9922 - val_loss: 0.0190 - val_accuracy: 0.9920
+2023-01-16 04:35:25,049 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00030: val_accuracy did not improve from 0.99483
+2023-01-16 04:35:25,052 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 31/50
+2023-01-16 04:42:56,805 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0183 - accuracy: 0.9924 - val_loss: 0.0180 - val_accuracy: 0.9928
+2023-01-16 04:42:56,807 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00031: val_accuracy did not improve from 0.99483
+2023-01-16 04:42:56,810 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 32/50
+2023-01-16 04:50:28,225 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0188 - accuracy: 0.9922 - val_loss: 0.0188 - val_accuracy: 0.9922
+2023-01-16 04:50:28,226 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00032: val_accuracy did not improve from 0.99483
+2023-01-16 04:50:28,228 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 33/50
+2023-01-16 04:57:59,374 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0180 - accuracy: 0.9925 - val_loss: 0.0169 - val_accuracy: 0.9929
+2023-01-16 04:57:59,375 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00033: val_accuracy did not improve from 0.99483
+2023-01-16 04:57:59,378 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 34/50
+2023-01-16 05:05:30,465 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0177 - accuracy: 0.9926 - val_loss: 0.0147 - val_accuracy: 0.9940
+2023-01-16 05:05:30,466 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00034: val_accuracy did not improve from 0.99483
+2023-01-16 05:05:30,468 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 35/50
+2023-01-16 05:13:01,316 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0177 - accuracy: 0.9926 - val_loss: 0.0240 - val_accuracy: 0.9899
+2023-01-16 05:13:01,317 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00035: val_accuracy did not improve from 0.99483
+2023-01-16 05:13:01,319 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 36/50
+2023-01-16 05:20:32,413 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0179 - accuracy: 0.9926 - val_loss: 0.0160 - val_accuracy: 0.9934
+2023-01-16 05:20:32,415 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00036: val_accuracy did not improve from 0.99483
+2023-01-16 05:20:32,417 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 37/50
+2023-01-16 05:28:02,977 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0165 - accuracy: 0.9931 - val_loss: 0.0163 - val_accuracy: 0.9932
+2023-01-16 05:28:02,978 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00037: val_accuracy did not improve from 0.99483
+2023-01-16 05:28:02,981 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 38/50
+2023-01-16 05:35:33,817 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0176 - accuracy: 0.9926 - val_loss: 0.0174 - val_accuracy: 0.9928
+2023-01-16 05:35:33,819 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00038: val_accuracy did not improve from 0.99483
+2023-01-16 05:35:33,821 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 39/50
+2023-01-16 05:43:04,372 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0169 - accuracy: 0.9929 - val_loss: 0.0087 - val_accuracy: 0.9964
+2023-01-16 05:43:04,374 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00039: val_accuracy improved from 0.99483 to 0.99636, saving model to /tmp/tmpjs1hh4sf/8c82f44c-d054-4ca8-afb0-4403c73c387b.hdf5
+2023-01-16 05:43:04,569 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 40/50
+2023-01-16 05:50:35,326 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0177 - accuracy: 0.9926 - val_loss: 0.0181 - val_accuracy: 0.9920
+2023-01-16 05:50:35,328 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00040: val_accuracy did not improve from 0.99636
+2023-01-16 05:50:35,330 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 41/50
+2023-01-16 05:58:05,485 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0156 - accuracy: 0.9933 - val_loss: 0.0151 - val_accuracy: 0.9935
+2023-01-16 05:58:05,487 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00041: val_accuracy did not improve from 0.99636
+2023-01-16 05:58:05,490 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 42/50
+2023-01-16 06:05:35,699 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0158 - accuracy: 0.9932 - val_loss: 0.0159 - val_accuracy: 0.9931
+2023-01-16 06:05:35,703 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00042: val_accuracy did not improve from 0.99636
+2023-01-16 06:05:35,706 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 43/50
+2023-01-16 06:13:05,337 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0160 - accuracy: 0.9931 - val_loss: 0.0213 - val_accuracy: 0.9911
+2023-01-16 06:13:05,339 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00043: val_accuracy did not improve from 0.99636
+2023-01-16 06:13:05,342 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 44/50
+2023-01-16 06:20:35,351 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0160 - accuracy: 0.9931 - val_loss: 0.0197 - val_accuracy: 0.9915
+2023-01-16 06:20:35,353 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00044: val_accuracy did not improve from 0.99636
+2023-01-16 06:20:35,356 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 45/50
+2023-01-16 06:28:05,245 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0158 - accuracy: 0.9932 - val_loss: 0.0130 - val_accuracy: 0.9942
+2023-01-16 06:28:05,246 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00045: val_accuracy did not improve from 0.99636
+2023-01-16 06:28:05,248 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 46/50
+2023-01-16 06:35:34,721 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 449s - loss: 0.0156 - accuracy: 0.9932 - val_loss: 0.0202 - val_accuracy: 0.9910
+2023-01-16 06:35:34,722 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00046: val_accuracy did not improve from 0.99636
+2023-01-16 06:35:34,725 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 47/50
+2023-01-16 06:43:04,642 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0165 - accuracy: 0.9931 - val_loss: 0.0157 - val_accuracy: 0.9934
+2023-01-16 06:43:04,645 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00047: val_accuracy did not improve from 0.99636
+2023-01-16 06:43:04,647 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 48/50
+2023-01-16 06:50:34,339 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0151 - accuracy: 0.9935 - val_loss: 0.0177 - val_accuracy: 0.9926
+2023-01-16 06:50:34,341 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00048: val_accuracy did not improve from 0.99636
+2023-01-16 06:50:34,344 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 49/50
+2023-01-16 06:58:03,813 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 449s - loss: 0.0151 - accuracy: 0.9935 - val_loss: 0.0140 - val_accuracy: 0.9940
+2023-01-16 06:58:03,814 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00049: val_accuracy did not improve from 0.99636
+2023-01-16 06:58:03,817 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 50/50
+2023-01-16 07:05:33,584 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0153 - accuracy: 0.9934 - val_loss: 0.0134 - val_accuracy: 0.9941
+2023-01-16 07:05:33,586 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00050: val_accuracy did not improve from 0.99636
+2023-01-16 07:05:33,589 - rodan.jobs.Paco_classifier.fast_paco_trainer - Training a new model for label #1
+2023-01-16 07:05:33,740 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 0 (Background)
+2023-01-16 07:05:33,779 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 3
+2023-01-16 07:05:33,779 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 2
+2023-01-16 07:05:33,780 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 1
+2023-01-16 07:05:33,780 - rodan.jobs.Paco_classifier.fast_paco_trainer - Init generator for layer rgba PNG - Layer 1
+2023-01-16 07:05:37,777 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 1/50
+2023-01-16 07:13:10,284 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 0 (Background)
+2023-01-16 07:13:10,285 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 3
+2023-01-16 07:13:10,285 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 2
+2023-01-16 07:13:10,285 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 1
+2023-01-16 07:13:10,294 - rodan.jobs.Paco_classifier.fast_paco_trainer - Init generator for layer rgba PNG - Layer 1
+2023-01-16 07:13:15,452 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 458s - loss: 0.1100 - accuracy: 0.9554 - val_loss: 0.0723 - val_accuracy: 0.9792
+2023-01-16 07:13:15,453 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00001: val_accuracy improved from -inf to 0.97919, saving model to /tmp/tmpjs1hh4sf/3f3948cb-1729-480a-a8a0-9842f7bca240.hdf5
+2023-01-16 07:13:15,589 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 2/50
+2023-01-16 07:20:50,389 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 455s - loss: 0.0616 - accuracy: 0.9827 - val_loss: 0.0520 - val_accuracy: 0.9860
+2023-01-16 07:20:50,390 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00002: val_accuracy improved from 0.97919 to 0.98597, saving model to /tmp/tmpjs1hh4sf/3f3948cb-1729-480a-a8a0-9842f7bca240.hdf5
+2023-01-16 07:20:50,753 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 3/50
+2023-01-16 07:28:25,903 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 455s - loss: 0.0546 - accuracy: 0.9865 - val_loss: 0.0559 - val_accuracy: 0.9881
+2023-01-16 07:28:25,905 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00003: val_accuracy improved from 0.98597 to 0.98809, saving model to /tmp/tmpjs1hh4sf/3f3948cb-1729-480a-a8a0-9842f7bca240.hdf5
+2023-01-16 07:28:26,047 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 4/50
+2023-01-16 07:36:01,087 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 455s - loss: 0.0502 - accuracy: 0.9883 - val_loss: 0.0530 - val_accuracy: 0.9877
+2023-01-16 07:36:01,090 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00004: val_accuracy did not improve from 0.98809
+2023-01-16 07:36:01,093 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 5/50
+2023-01-16 07:43:36,285 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 455s - loss: 0.0478 - accuracy: 0.9895 - val_loss: 0.0487 - val_accuracy: 0.9895
+2023-01-16 07:43:36,287 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00005: val_accuracy improved from 0.98809 to 0.98949, saving model to /tmp/tmpjs1hh4sf/3f3948cb-1729-480a-a8a0-9842f7bca240.hdf5
+2023-01-16 07:43:36,481 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 6/50
+2023-01-16 07:51:11,423 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 455s - loss: 0.0452 - accuracy: 0.9902 - val_loss: 0.0436 - val_accuracy: 0.9902
+2023-01-16 07:51:11,425 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00006: val_accuracy improved from 0.98949 to 0.99022, saving model to /tmp/tmpjs1hh4sf/3f3948cb-1729-480a-a8a0-9842f7bca240.hdf5
+2023-01-16 07:51:11,576 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 7/50
+2023-01-16 07:58:46,801 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 455s - loss: 0.0437 - accuracy: 0.9907 - val_loss: 0.0418 - val_accuracy: 0.9912
+2023-01-16 07:58:46,803 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00007: val_accuracy improved from 0.99022 to 0.99124, saving model to /tmp/tmpjs1hh4sf/3f3948cb-1729-480a-a8a0-9842f7bca240.hdf5
+2023-01-16 07:58:47,016 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 8/50
+2023-01-16 08:06:21,922 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 455s - loss: 0.0417 - accuracy: 0.9910 - val_loss: 0.0362 - val_accuracy: 0.9924
+2023-01-16 08:06:21,925 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00008: val_accuracy improved from 0.99124 to 0.99242, saving model to /tmp/tmpjs1hh4sf/3f3948cb-1729-480a-a8a0-9842f7bca240.hdf5
+2023-01-16 08:06:22,135 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 9/50
+2023-01-16 08:13:56,930 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 455s - loss: 0.0411 - accuracy: 0.9911 - val_loss: 0.0388 - val_accuracy: 0.9913
+2023-01-16 08:13:56,931 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00009: val_accuracy did not improve from 0.99242
+2023-01-16 08:13:56,933 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 10/50
+2023-01-16 08:21:31,625 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 455s - loss: 0.0385 - accuracy: 0.9915 - val_loss: 0.0391 - val_accuracy: 0.9919
+2023-01-16 08:21:31,626 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00010: val_accuracy did not improve from 0.99242
+2023-01-16 08:21:31,629 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 11/50
+2023-01-16 08:29:06,150 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 455s - loss: 0.0372 - accuracy: 0.9920 - val_loss: 0.0321 - val_accuracy: 0.9932
+2023-01-16 08:29:06,152 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00011: val_accuracy improved from 0.99242 to 0.99325, saving model to /tmp/tmpjs1hh4sf/3f3948cb-1729-480a-a8a0-9842f7bca240.hdf5
+2023-01-16 08:29:06,345 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 12/50
+2023-01-16 08:36:40,555 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 454s - loss: 0.0356 - accuracy: 0.9925 - val_loss: 0.0364 - val_accuracy: 0.9924
+2023-01-16 08:36:40,556 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00012: val_accuracy did not improve from 0.99325
+2023-01-16 08:36:40,559 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 13/50
+2023-01-16 08:44:14,412 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 454s - loss: 0.0349 - accuracy: 0.9926 - val_loss: 0.0322 - val_accuracy: 0.9934
+2023-01-16 08:44:14,414 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00013: val_accuracy improved from 0.99325 to 0.99339, saving model to /tmp/tmpjs1hh4sf/3f3948cb-1729-480a-a8a0-9842f7bca240.hdf5
+2023-01-16 08:44:14,603 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 14/50
+2023-01-16 08:51:48,296 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 454s - loss: 0.0348 - accuracy: 0.9921 - val_loss: 0.0324 - val_accuracy: 0.9929
+2023-01-16 08:51:48,299 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00014: val_accuracy did not improve from 0.99339
+2023-01-16 08:51:48,301 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 15/50
+2023-01-16 08:59:22,018 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 454s - loss: 0.0322 - accuracy: 0.9933 - val_loss: 0.0290 - val_accuracy: 0.9935
+2023-01-16 08:59:22,019 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00015: val_accuracy improved from 0.99339 to 0.99347, saving model to /tmp/tmpjs1hh4sf/3f3948cb-1729-480a-a8a0-9842f7bca240.hdf5
+2023-01-16 08:59:22,191 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 16/50
+2023-01-16 09:06:55,544 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 453s - loss: 0.0312 - accuracy: 0.9933 - val_loss: 0.0320 - val_accuracy: 0.9934
+2023-01-16 09:06:55,546 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00016: val_accuracy did not improve from 0.99347
+2023-01-16 09:06:55,550 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 17/50
+2023-01-16 09:14:28,835 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 453s - loss: 0.0308 - accuracy: 0.9933 - val_loss: 0.0335 - val_accuracy: 0.9926
+2023-01-16 09:14:28,836 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00017: val_accuracy did not improve from 0.99347
+2023-01-16 09:14:28,838 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 18/50
+2023-01-16 09:22:01,683 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 453s - loss: 0.0289 - accuracy: 0.9936 - val_loss: 0.0291 - val_accuracy: 0.9937
+2023-01-16 09:22:01,685 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00018: val_accuracy improved from 0.99347 to 0.99372, saving model to /tmp/tmpjs1hh4sf/3f3948cb-1729-480a-a8a0-9842f7bca240.hdf5
+2023-01-16 09:22:01,868 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 19/50
+2023-01-16 09:29:34,778 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 453s - loss: 0.0284 - accuracy: 0.9937 - val_loss: 0.0315 - val_accuracy: 0.9933
+2023-01-16 09:29:34,779 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00019: val_accuracy did not improve from 0.99372
+2023-01-16 09:29:34,781 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 20/50
+2023-01-16 09:37:07,440 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 453s - loss: 0.0278 - accuracy: 0.9937 - val_loss: 0.0275 - val_accuracy: 0.9941
+2023-01-16 09:37:07,442 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00020: val_accuracy improved from 0.99372 to 0.99408, saving model to /tmp/tmpjs1hh4sf/3f3948cb-1729-480a-a8a0-9842f7bca240.hdf5
+2023-01-16 09:37:07,617 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 21/50
+2023-01-16 09:44:40,050 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0262 - accuracy: 0.9942 - val_loss: 0.0294 - val_accuracy: 0.9941
+2023-01-16 09:44:40,052 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00021: val_accuracy did not improve from 0.99408
+2023-01-16 09:44:40,054 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 22/50
+2023-01-16 09:52:12,323 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0260 - accuracy: 0.9941 - val_loss: 0.0247 - val_accuracy: 0.9945
+2023-01-16 09:52:12,324 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00022: val_accuracy improved from 0.99408 to 0.99446, saving model to /tmp/tmpjs1hh4sf/3f3948cb-1729-480a-a8a0-9842f7bca240.hdf5
+2023-01-16 09:52:12,502 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 23/50
+2023-01-16 09:59:44,900 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0248 - accuracy: 0.9943 - val_loss: 0.0250 - val_accuracy: 0.9945
+2023-01-16 09:59:44,902 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00023: val_accuracy improved from 0.99446 to 0.99454, saving model to /tmp/tmpjs1hh4sf/3f3948cb-1729-480a-a8a0-9842f7bca240.hdf5
+2023-01-16 09:59:45,129 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 24/50
+2023-01-16 10:07:17,055 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0238 - accuracy: 0.9945 - val_loss: 0.0208 - val_accuracy: 0.9952
+2023-01-16 10:07:17,057 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00024: val_accuracy improved from 0.99454 to 0.99518, saving model to /tmp/tmpjs1hh4sf/3f3948cb-1729-480a-a8a0-9842f7bca240.hdf5
+2023-01-16 10:07:17,248 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 25/50
+2023-01-16 10:14:49,262 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0231 - accuracy: 0.9946 - val_loss: 0.0240 - val_accuracy: 0.9945
+2023-01-16 10:14:49,271 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00025: val_accuracy did not improve from 0.99518
+2023-01-16 10:14:49,274 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 26/50
+2023-01-16 10:22:21,080 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0224 - accuracy: 0.9947 - val_loss: 0.0209 - val_accuracy: 0.9949
+2023-01-16 10:22:21,085 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00026: val_accuracy did not improve from 0.99518
+2023-01-16 10:22:21,088 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 27/50
+2023-01-16 10:29:52,369 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0215 - accuracy: 0.9949 - val_loss: 0.0210 - val_accuracy: 0.9951
+2023-01-16 10:29:52,371 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00027: val_accuracy did not improve from 0.99518
+2023-01-16 10:29:52,373 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 28/50
+2023-01-16 10:37:23,802 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0214 - accuracy: 0.9948 - val_loss: 0.0196 - val_accuracy: 0.9952
+2023-01-16 10:37:23,804 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00028: val_accuracy did not improve from 0.99518
+2023-01-16 10:37:23,807 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 29/50
+2023-01-16 10:44:54,892 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0204 - accuracy: 0.9951 - val_loss: 0.0213 - val_accuracy: 0.9950
+2023-01-16 10:44:54,893 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00029: val_accuracy did not improve from 0.99518
+2023-01-16 10:44:54,896 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 30/50
+2023-01-16 10:52:25,874 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0194 - accuracy: 0.9953 - val_loss: 0.0212 - val_accuracy: 0.9949
+2023-01-16 10:52:25,876 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00030: val_accuracy did not improve from 0.99518
+2023-01-16 10:52:25,879 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 31/50
+2023-01-16 10:59:57,211 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0205 - accuracy: 0.9947 - val_loss: 0.0147 - val_accuracy: 0.9961
+2023-01-16 10:59:57,213 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00031: val_accuracy improved from 0.99518 to 0.99607, saving model to /tmp/tmpjs1hh4sf/3f3948cb-1729-480a-a8a0-9842f7bca240.hdf5
+2023-01-16 10:59:57,439 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 32/50
+2023-01-16 11:07:27,935 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0180 - accuracy: 0.9956 - val_loss: 0.0178 - val_accuracy: 0.9958
+2023-01-16 11:07:27,939 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00032: val_accuracy did not improve from 0.99607
+2023-01-16 11:07:27,941 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 33/50
+2023-01-16 11:14:57,980 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0177 - accuracy: 0.9956 - val_loss: 0.0174 - val_accuracy: 0.9957
+2023-01-16 11:14:57,981 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00033: val_accuracy did not improve from 0.99607
+2023-01-16 11:14:57,983 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 34/50
+2023-01-16 11:22:28,010 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0170 - accuracy: 0.9958 - val_loss: 0.0168 - val_accuracy: 0.9959
+2023-01-16 11:22:28,012 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00034: val_accuracy did not improve from 0.99607
+2023-01-16 11:22:28,015 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 35/50
+2023-01-16 11:29:58,233 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0168 - accuracy: 0.9957 - val_loss: 0.0183 - val_accuracy: 0.9954
+2023-01-16 11:29:58,235 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00035: val_accuracy did not improve from 0.99607
+2023-01-16 11:29:58,237 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 36/50
+2023-01-16 11:37:28,245 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0164 - accuracy: 0.9958 - val_loss: 0.0176 - val_accuracy: 0.9954
+2023-01-16 11:37:28,246 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00036: val_accuracy did not improve from 0.99607
+2023-01-16 11:37:28,249 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 37/50
+2023-01-16 11:44:58,001 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0157 - accuracy: 0.9959 - val_loss: 0.0182 - val_accuracy: 0.9953
+2023-01-16 11:44:58,002 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00037: val_accuracy did not improve from 0.99607
+2023-01-16 11:44:58,005 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 38/50
+2023-01-16 11:52:28,735 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0163 - accuracy: 0.9955 - val_loss: 0.0183 - val_accuracy: 0.9945
+2023-01-16 11:52:28,737 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00038: val_accuracy did not improve from 0.99607
+2023-01-16 11:52:28,740 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 39/50
+2023-01-16 11:59:58,773 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0152 - accuracy: 0.9959 - val_loss: 0.0151 - val_accuracy: 0.9959
+2023-01-16 11:59:58,774 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00039: val_accuracy did not improve from 0.99607
+2023-01-16 11:59:58,776 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 40/50
+2023-01-16 12:07:28,296 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0143 - accuracy: 0.9963 - val_loss: 0.0141 - val_accuracy: 0.9963
+2023-01-16 12:07:28,298 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00040: val_accuracy improved from 0.99607 to 0.99628, saving model to /tmp/tmpjs1hh4sf/3f3948cb-1729-480a-a8a0-9842f7bca240.hdf5
+2023-01-16 12:07:28,495 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 41/50
+2023-01-16 12:14:57,702 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 449s - loss: 0.0140 - accuracy: 0.9963 - val_loss: 0.0128 - val_accuracy: 0.9965
+2023-01-16 12:14:57,704 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00041: val_accuracy improved from 0.99628 to 0.99655, saving model to /tmp/tmpjs1hh4sf/3f3948cb-1729-480a-a8a0-9842f7bca240.hdf5
+2023-01-16 12:14:57,921 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 42/50
+2023-01-16 12:22:27,226 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 449s - loss: 0.0136 - accuracy: 0.9963 - val_loss: 0.0152 - val_accuracy: 0.9960
+2023-01-16 12:22:27,228 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00042: val_accuracy did not improve from 0.99655
+2023-01-16 12:22:27,230 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 43/50
+2023-01-16 12:29:56,543 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 449s - loss: 0.0131 - accuracy: 0.9964 - val_loss: 0.0118 - val_accuracy: 0.9966
+2023-01-16 12:29:56,544 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00043: val_accuracy improved from 0.99655 to 0.99656, saving model to /tmp/tmpjs1hh4sf/3f3948cb-1729-480a-a8a0-9842f7bca240.hdf5
+2023-01-16 12:29:56,733 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 44/50
+2023-01-16 12:37:26,206 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 449s - loss: 0.0128 - accuracy: 0.9965 - val_loss: 0.0137 - val_accuracy: 0.9962
+2023-01-16 12:37:26,208 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00044: val_accuracy did not improve from 0.99656
+2023-01-16 12:37:26,211 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 45/50
+2023-01-16 12:44:55,803 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0124 - accuracy: 0.9966 - val_loss: 0.0121 - val_accuracy: 0.9968
+2023-01-16 12:44:55,804 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00045: val_accuracy improved from 0.99656 to 0.99677, saving model to /tmp/tmpjs1hh4sf/3f3948cb-1729-480a-a8a0-9842f7bca240.hdf5
+2023-01-16 12:44:56,027 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 46/50
+2023-01-16 12:52:27,173 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0139 - accuracy: 0.9959 - val_loss: 0.0132 - val_accuracy: 0.9961
+2023-01-16 12:52:27,174 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00046: val_accuracy did not improve from 0.99677
+2023-01-16 12:52:27,176 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 47/50
+2023-01-16 12:59:56,354 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 449s - loss: 0.0119 - accuracy: 0.9966 - val_loss: 0.0132 - val_accuracy: 0.9964
+2023-01-16 12:59:56,355 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00047: val_accuracy did not improve from 0.99677
+2023-01-16 12:59:56,357 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 48/50
+2023-01-16 13:07:25,275 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 449s - loss: 0.0113 - accuracy: 0.9968 - val_loss: 0.0091 - val_accuracy: 0.9973
+2023-01-16 13:07:25,277 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00048: val_accuracy improved from 0.99677 to 0.99735, saving model to /tmp/tmpjs1hh4sf/3f3948cb-1729-480a-a8a0-9842f7bca240.hdf5
+2023-01-16 13:07:25,504 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 49/50
+2023-01-16 13:14:53,763 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 448s - loss: 0.0110 - accuracy: 0.9968 - val_loss: 0.0107 - val_accuracy: 0.9968
+2023-01-16 13:14:53,765 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00049: val_accuracy did not improve from 0.99735
+2023-01-16 13:14:53,768 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 50/50
+2023-01-16 13:22:22,616 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 449s - loss: 0.0110 - accuracy: 0.9968 - val_loss: 0.0098 - val_accuracy: 0.9971
+2023-01-16 13:22:22,617 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00050: val_accuracy did not improve from 0.99735
+2023-01-16 13:22:22,620 - rodan.jobs.Paco_classifier.fast_paco_trainer - Training a new model for label #2
+2023-01-16 13:22:22,765 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 0 (Background)
+2023-01-16 13:22:22,765 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 3
+2023-01-16 13:22:22,766 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 2
+2023-01-16 13:22:22,766 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 1
+2023-01-16 13:22:22,804 - rodan.jobs.Paco_classifier.fast_paco_trainer - Init generator for layer rgba PNG - Layer 2
+2023-01-16 13:22:27,398 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 1/50
+2023-01-16 13:29:57,529 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 0 (Background)
+2023-01-16 13:29:57,531 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 3
+2023-01-16 13:29:57,531 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 2
+2023-01-16 13:29:57,751 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 1
+2023-01-16 13:29:57,751 - rodan.jobs.Paco_classifier.fast_paco_trainer - Init generator for layer rgba PNG - Layer 2
+2023-01-16 13:30:07,207 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 460s - loss: 0.0937 - accuracy: 0.9687 - val_loss: 0.0329 - val_accuracy: 0.9822
+2023-01-16 13:30:07,207 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00001: val_accuracy improved from -inf to 0.98223, saving model to /tmp/tmpjs1hh4sf/ea8bb223-b6ba-4ebb-828b-c7107d598a9c.hdf5
+2023-01-16 13:30:07,340 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 2/50
+2023-01-16 13:37:38,898 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0351 - accuracy: 0.9807 - val_loss: 0.0344 - val_accuracy: 0.9812
+2023-01-16 13:37:38,899 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00002: val_accuracy did not improve from 0.98223
+2023-01-16 13:37:38,902 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 3/50
+2023-01-16 13:45:10,597 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0342 - accuracy: 0.9809 - val_loss: 0.0306 - val_accuracy: 0.9833
+2023-01-16 13:45:10,598 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00003: val_accuracy improved from 0.98223 to 0.98329, saving model to /tmp/tmpjs1hh4sf/ea8bb223-b6ba-4ebb-828b-c7107d598a9c.hdf5
+2023-01-16 13:45:10,831 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 4/50
+2023-01-16 13:52:42,160 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0333 - accuracy: 0.9812 - val_loss: 0.0305 - val_accuracy: 0.9828
+2023-01-16 13:52:42,162 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00004: val_accuracy did not improve from 0.98329
+2023-01-16 13:52:42,164 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 5/50
+2023-01-16 14:00:13,255 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0329 - accuracy: 0.9814 - val_loss: 0.0340 - val_accuracy: 0.9807
+2023-01-16 14:00:13,257 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00005: val_accuracy did not improve from 0.98329
+2023-01-16 14:00:13,259 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 6/50
+2023-01-16 14:07:44,244 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0325 - accuracy: 0.9814 - val_loss: 0.0321 - val_accuracy: 0.9818
+2023-01-16 14:07:44,247 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00006: val_accuracy did not improve from 0.98329
+2023-01-16 14:07:44,250 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 7/50
+2023-01-16 14:15:15,575 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0319 - accuracy: 0.9816 - val_loss: 0.0305 - val_accuracy: 0.9824
+2023-01-16 14:15:15,576 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00007: val_accuracy did not improve from 0.98329
+2023-01-16 14:15:15,579 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 8/50
+2023-01-16 14:22:46,974 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0318 - accuracy: 0.9816 - val_loss: 0.0318 - val_accuracy: 0.9814
+2023-01-16 14:22:46,976 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00008: val_accuracy did not improve from 0.98329
+2023-01-16 14:22:46,978 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 9/50
+2023-01-16 14:30:19,212 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0313 - accuracy: 0.9818 - val_loss: 0.0290 - val_accuracy: 0.9829
+2023-01-16 14:30:19,214 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00009: val_accuracy did not improve from 0.98329
+2023-01-16 14:30:19,216 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 10/50
+2023-01-16 14:37:51,520 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0310 - accuracy: 0.9819 - val_loss: 0.0280 - val_accuracy: 0.9833
+2023-01-16 14:37:51,522 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00010: val_accuracy improved from 0.98329 to 0.98333, saving model to /tmp/tmpjs1hh4sf/ea8bb223-b6ba-4ebb-828b-c7107d598a9c.hdf5
+2023-01-16 14:37:51,720 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 11/50
+2023-01-16 14:45:22,314 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0313 - accuracy: 0.9817 - val_loss: 0.0303 - val_accuracy: 0.9821
+2023-01-16 14:45:22,316 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00011: val_accuracy did not improve from 0.98333
+2023-01-16 14:45:22,318 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 12/50
+2023-01-16 14:52:53,074 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0304 - accuracy: 0.9820 - val_loss: 0.0311 - val_accuracy: 0.9815
+2023-01-16 14:52:53,075 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00012: val_accuracy did not improve from 0.98333
+2023-01-16 14:52:53,077 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 13/50
+2023-01-16 15:00:24,217 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0306 - accuracy: 0.9819 - val_loss: 0.0253 - val_accuracy: 0.9850
+2023-01-16 15:00:24,219 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00013: val_accuracy improved from 0.98333 to 0.98499, saving model to /tmp/tmpjs1hh4sf/ea8bb223-b6ba-4ebb-828b-c7107d598a9c.hdf5
+2023-01-16 15:00:24,416 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 14/50
+2023-01-16 15:07:54,778 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0303 - accuracy: 0.9820 - val_loss: 0.0309 - val_accuracy: 0.9814
+2023-01-16 15:07:54,780 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00014: val_accuracy did not improve from 0.98499
+2023-01-16 15:07:54,783 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 15/50
+2023-01-16 15:15:25,241 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0299 - accuracy: 0.9822 - val_loss: 0.0301 - val_accuracy: 0.9823
+2023-01-16 15:15:25,242 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00015: val_accuracy did not improve from 0.98499
+2023-01-16 15:15:25,244 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 16/50
+2023-01-16 15:22:55,434 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0297 - accuracy: 0.9823 - val_loss: 0.0283 - val_accuracy: 0.9834
+2023-01-16 15:22:55,437 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00016: val_accuracy did not improve from 0.98499
+2023-01-16 15:22:55,439 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 17/50
+2023-01-16 15:30:25,941 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0299 - accuracy: 0.9821 - val_loss: 0.0309 - val_accuracy: 0.9815
+2023-01-16 15:30:25,945 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00017: val_accuracy did not improve from 0.98499
+2023-01-16 15:30:25,948 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 18/50
+2023-01-16 15:37:56,110 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0296 - accuracy: 0.9822 - val_loss: 0.0269 - val_accuracy: 0.9837
+2023-01-16 15:37:56,112 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00018: val_accuracy did not improve from 0.98499
+2023-01-16 15:37:56,114 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 19/50
+2023-01-16 15:45:26,109 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0294 - accuracy: 0.9824 - val_loss: 0.0298 - val_accuracy: 0.9822
+2023-01-16 15:45:26,111 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00019: val_accuracy did not improve from 0.98499
+2023-01-16 15:45:26,114 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 20/50
+2023-01-16 15:52:55,720 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0291 - accuracy: 0.9824 - val_loss: 0.0294 - val_accuracy: 0.9822
+2023-01-16 15:52:55,723 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00020: val_accuracy did not improve from 0.98499
+2023-01-16 15:52:55,726 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 21/50
+2023-01-16 16:00:24,781 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 449s - loss: 0.0288 - accuracy: 0.9825 - val_loss: 0.0313 - val_accuracy: 0.9810
+2023-01-16 16:00:24,784 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00021: val_accuracy did not improve from 0.98499
+2023-01-16 16:00:24,787 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 22/50
+2023-01-16 16:07:54,043 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 449s - loss: 0.0285 - accuracy: 0.9827 - val_loss: 0.0280 - val_accuracy: 0.9830
+2023-01-16 16:07:54,044 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00022: val_accuracy did not improve from 0.98499
+2023-01-16 16:07:54,047 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 23/50
+2023-01-16 16:15:22,945 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 449s - loss: 0.0285 - accuracy: 0.9826 - val_loss: 0.0299 - val_accuracy: 0.9819
+2023-01-16 16:15:22,946 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00023: val_accuracy did not improve from 0.98499
+2023-01-16 16:15:22,949 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 24/50
+2023-01-16 16:22:51,670 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 449s - loss: 0.0284 - accuracy: 0.9827 - val_loss: 0.0284 - val_accuracy: 0.9824
+2023-01-16 16:22:51,672 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00024: val_accuracy did not improve from 0.98499
+2023-01-16 16:22:51,675 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 25/50
+2023-01-16 16:30:20,563 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 449s - loss: 0.0286 - accuracy: 0.9825 - val_loss: 0.0277 - val_accuracy: 0.9832
+2023-01-16 16:30:20,565 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00025: val_accuracy did not improve from 0.98499
+2023-01-16 16:30:20,568 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 26/50
+2023-01-16 16:37:49,396 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 449s - loss: 0.0283 - accuracy: 0.9827 - val_loss: 0.0264 - val_accuracy: 0.9837
+2023-01-16 16:37:49,397 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00026: val_accuracy did not improve from 0.98499
+2023-01-16 16:37:49,400 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 27/50
+2023-01-16 16:45:17,592 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 448s - loss: 0.0274 - accuracy: 0.9826 - val_loss: 0.0250 - val_accuracy: 0.9834
+2023-01-16 16:45:17,594 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00027: val_accuracy did not improve from 0.98499
+2023-01-16 16:45:17,597 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 28/50
+2023-01-16 16:52:45,140 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 448s - loss: 0.0254 - accuracy: 0.9848 - val_loss: 0.0269 - val_accuracy: 0.9861
+2023-01-16 16:52:45,141 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00028: val_accuracy improved from 0.98499 to 0.98607, saving model to /tmp/tmpjs1hh4sf/ea8bb223-b6ba-4ebb-828b-c7107d598a9c.hdf5
+2023-01-16 16:52:45,354 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 29/50
+2023-01-16 17:00:13,146 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 448s - loss: 0.0246 - accuracy: 0.9884 - val_loss: 0.0216 - val_accuracy: 0.9917
+2023-01-16 17:00:13,147 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00029: val_accuracy improved from 0.98607 to 0.99168, saving model to /tmp/tmpjs1hh4sf/ea8bb223-b6ba-4ebb-828b-c7107d598a9c.hdf5
+2023-01-16 17:00:13,287 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 30/50
+2023-01-16 17:07:40,757 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 447s - loss: 0.0228 - accuracy: 0.9911 - val_loss: 0.0201 - val_accuracy: 0.9923
+2023-01-16 17:07:40,759 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00030: val_accuracy improved from 0.99168 to 0.99233, saving model to /tmp/tmpjs1hh4sf/ea8bb223-b6ba-4ebb-828b-c7107d598a9c.hdf5
+2023-01-16 17:07:40,928 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 31/50
+2023-01-16 17:15:08,265 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 447s - loss: 0.0223 - accuracy: 0.9914 - val_loss: 0.0210 - val_accuracy: 0.9916
+2023-01-16 17:15:08,267 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00031: val_accuracy did not improve from 0.99233
+2023-01-16 17:15:08,270 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 32/50
+2023-01-16 17:22:35,511 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 447s - loss: 0.0214 - accuracy: 0.9917 - val_loss: 0.0203 - val_accuracy: 0.9924
+2023-01-16 17:22:35,513 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00032: val_accuracy improved from 0.99233 to 0.99242, saving model to /tmp/tmpjs1hh4sf/ea8bb223-b6ba-4ebb-828b-c7107d598a9c.hdf5
+2023-01-16 17:22:35,698 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 33/50
+2023-01-16 17:30:02,835 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 447s - loss: 0.0204 - accuracy: 0.9918 - val_loss: 0.0215 - val_accuracy: 0.9911
+2023-01-16 17:30:02,837 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00033: val_accuracy did not improve from 0.99242
+2023-01-16 17:30:02,840 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 34/50
+2023-01-16 17:37:30,085 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 447s - loss: 0.0194 - accuracy: 0.9919 - val_loss: 0.0192 - val_accuracy: 0.9920
+2023-01-16 17:37:30,088 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00034: val_accuracy did not improve from 0.99242
+2023-01-16 17:37:30,091 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 35/50
+2023-01-16 17:44:57,200 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 447s - loss: 0.0186 - accuracy: 0.9923 - val_loss: 0.0175 - val_accuracy: 0.9929
+2023-01-16 17:44:57,201 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00035: val_accuracy improved from 0.99242 to 0.99287, saving model to /tmp/tmpjs1hh4sf/ea8bb223-b6ba-4ebb-828b-c7107d598a9c.hdf5
+2023-01-16 17:44:57,391 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 36/50
+2023-01-16 17:52:24,336 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 447s - loss: 0.0187 - accuracy: 0.9923 - val_loss: 0.0162 - val_accuracy: 0.9935
+2023-01-16 17:52:24,338 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00036: val_accuracy improved from 0.99287 to 0.99348, saving model to /tmp/tmpjs1hh4sf/ea8bb223-b6ba-4ebb-828b-c7107d598a9c.hdf5
+2023-01-16 17:52:24,594 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 37/50
+2023-01-16 17:59:51,515 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 447s - loss: 0.0182 - accuracy: 0.9925 - val_loss: 0.0194 - val_accuracy: 0.9920
+2023-01-16 17:59:51,520 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00037: val_accuracy did not improve from 0.99348
+2023-01-16 17:59:51,523 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 38/50
+2023-01-16 18:07:17,902 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 446s - loss: 0.0178 - accuracy: 0.9926 - val_loss: 0.0171 - val_accuracy: 0.9930
+2023-01-16 18:07:17,903 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00038: val_accuracy did not improve from 0.99348
+2023-01-16 18:07:17,906 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 39/50
+2023-01-16 18:14:44,263 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 446s - loss: 0.0175 - accuracy: 0.9928 - val_loss: 0.0159 - val_accuracy: 0.9935
+2023-01-16 18:14:44,264 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00039: val_accuracy did not improve from 0.99348
+2023-01-16 18:14:44,266 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 40/50
+2023-01-16 18:22:10,677 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 446s - loss: 0.0173 - accuracy: 0.9929 - val_loss: 0.0149 - val_accuracy: 0.9939
+2023-01-16 18:22:10,679 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00040: val_accuracy improved from 0.99348 to 0.99393, saving model to /tmp/tmpjs1hh4sf/ea8bb223-b6ba-4ebb-828b-c7107d598a9c.hdf5
+2023-01-16 18:22:10,901 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 41/50
+2023-01-16 18:29:37,038 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 446s - loss: 0.0169 - accuracy: 0.9931 - val_loss: 0.0174 - val_accuracy: 0.9929
+2023-01-16 18:29:37,039 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00041: val_accuracy did not improve from 0.99393
+2023-01-16 18:29:37,043 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 42/50
+2023-01-16 18:37:03,087 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 446s - loss: 0.0165 - accuracy: 0.9933 - val_loss: 0.0152 - val_accuracy: 0.9939
+2023-01-16 18:37:03,089 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00042: val_accuracy did not improve from 0.99393
+2023-01-16 18:37:03,092 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 43/50
+2023-01-16 18:44:29,184 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 446s - loss: 0.0163 - accuracy: 0.9933 - val_loss: 0.0161 - val_accuracy: 0.9935
+2023-01-16 18:44:29,186 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00043: val_accuracy did not improve from 0.99393
+2023-01-16 18:44:29,189 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 44/50
+2023-01-16 18:51:55,647 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 446s - loss: 0.0161 - accuracy: 0.9934 - val_loss: 0.0160 - val_accuracy: 0.9935
+2023-01-16 18:51:55,649 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00044: val_accuracy did not improve from 0.99393
+2023-01-16 18:51:55,652 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 45/50
+2023-01-16 18:59:22,276 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 447s - loss: 0.0155 - accuracy: 0.9937 - val_loss: 0.0166 - val_accuracy: 0.9931
+2023-01-16 18:59:22,280 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00045: val_accuracy did not improve from 0.99393
+2023-01-16 18:59:22,283 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 46/50
+2023-01-16 19:06:48,637 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 446s - loss: 0.0152 - accuracy: 0.9938 - val_loss: 0.0154 - val_accuracy: 0.9937
+2023-01-16 19:06:48,639 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00046: val_accuracy did not improve from 0.99393
+2023-01-16 19:06:48,641 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 47/50
+2023-01-16 19:14:15,393 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 447s - loss: 0.0152 - accuracy: 0.9938 - val_loss: 0.0175 - val_accuracy: 0.9927
+2023-01-16 19:14:15,394 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00047: val_accuracy did not improve from 0.99393
+2023-01-16 19:14:15,397 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 48/50
+2023-01-16 19:21:41,608 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 446s - loss: 0.0148 - accuracy: 0.9940 - val_loss: 0.0136 - val_accuracy: 0.9944
+2023-01-16 19:21:41,610 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00048: val_accuracy improved from 0.99393 to 0.99443, saving model to /tmp/tmpjs1hh4sf/ea8bb223-b6ba-4ebb-828b-c7107d598a9c.hdf5
+2023-01-16 19:21:41,800 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 49/50
+2023-01-16 19:29:08,226 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 446s - loss: 0.0146 - accuracy: 0.9941 - val_loss: 0.0158 - val_accuracy: 0.9933
+2023-01-16 19:29:08,228 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00049: val_accuracy did not improve from 0.99443
+2023-01-16 19:29:08,230 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 50/50
+2023-01-16 19:36:34,428 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 446s - loss: 0.0144 - accuracy: 0.9942 - val_loss: 0.0145 - val_accuracy: 0.9941
+2023-01-16 19:36:34,430 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00050: val_accuracy did not improve from 0.99443
+2023-01-16 19:36:34,434 - rodan.jobs.Paco_classifier.fast_paco_trainer - Training a new model for label #3
+2023-01-16 19:36:34,605 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 0 (Background)
+2023-01-16 19:36:34,605 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 3
+2023-01-16 19:36:34,605 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 2
+2023-01-16 19:36:34,643 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 1
+2023-01-16 19:36:34,644 - rodan.jobs.Paco_classifier.fast_paco_trainer - Init generator for layer rgba PNG - Layer 3
+2023-01-16 19:36:39,332 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 1/50
+2023-01-16 19:44:07,308 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 0 (Background)
+2023-01-16 19:44:07,309 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 3
+2023-01-16 19:44:07,352 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 2
+2023-01-16 19:44:07,352 - rodan.jobs.Paco_classifier.fast_paco_trainer - Clean up layer rgba PNG - Layer 1
+2023-01-16 19:44:07,352 - rodan.jobs.Paco_classifier.fast_paco_trainer - Init generator for layer rgba PNG - Layer 3
+2023-01-16 19:44:13,111 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 454s - loss: 0.2229 - accuracy: 0.9525 - val_loss: 0.0303 - val_accuracy: 0.9884
+2023-01-16 19:44:13,112 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00001: val_accuracy improved from -inf to 0.98840, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-16 19:44:13,278 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 2/50
+2023-01-16 19:51:46,712 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 453s - loss: 0.0204 - accuracy: 0.9927 - val_loss: 0.0195 - val_accuracy: 0.9935
+2023-01-16 19:51:46,714 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00002: val_accuracy improved from 0.98840 to 0.99351, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-16 19:51:46,873 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 3/50
+2023-01-16 19:59:20,451 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 454s - loss: 0.0136 - accuracy: 0.9953 - val_loss: 0.0138 - val_accuracy: 0.9953
+2023-01-16 19:59:20,453 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00003: val_accuracy improved from 0.99351 to 0.99527, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-16 19:59:20,672 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 4/50
+2023-01-16 20:06:54,462 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 454s - loss: 0.0110 - accuracy: 0.9962 - val_loss: 0.0131 - val_accuracy: 0.9958
+2023-01-16 20:06:54,464 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00004: val_accuracy improved from 0.99527 to 0.99583, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-16 20:06:54,656 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 5/50
+2023-01-16 20:14:28,192 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 454s - loss: 0.0099 - accuracy: 0.9966 - val_loss: 0.0097 - val_accuracy: 0.9966
+2023-01-16 20:14:28,195 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00005: val_accuracy improved from 0.99583 to 0.99662, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-16 20:14:28,378 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 6/50
+2023-01-16 20:22:01,864 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 453s - loss: 0.0089 - accuracy: 0.9969 - val_loss: 0.0089 - val_accuracy: 0.9970
+2023-01-16 20:22:01,865 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00006: val_accuracy improved from 0.99662 to 0.99699, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-16 20:22:02,033 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 7/50
+2023-01-16 20:29:35,504 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 453s - loss: 0.0082 - accuracy: 0.9972 - val_loss: 0.0079 - val_accuracy: 0.9972
+2023-01-16 20:29:35,506 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00007: val_accuracy improved from 0.99699 to 0.99724, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-16 20:29:35,713 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 8/50
+2023-01-16 20:37:08,473 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 453s - loss: 0.0080 - accuracy: 0.9972 - val_loss: 0.0072 - val_accuracy: 0.9976
+2023-01-16 20:37:08,475 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00008: val_accuracy improved from 0.99724 to 0.99755, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-16 20:37:08,651 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 9/50
+2023-01-16 20:44:41,142 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0069 - accuracy: 0.9976 - val_loss: 0.0073 - val_accuracy: 0.9974
+2023-01-16 20:44:41,144 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00009: val_accuracy did not improve from 0.99755
+2023-01-16 20:44:41,146 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 10/50
+2023-01-16 20:52:13,540 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0074 - accuracy: 0.9974 - val_loss: 0.0065 - val_accuracy: 0.9978
+2023-01-16 20:52:13,545 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00010: val_accuracy improved from 0.99755 to 0.99777, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-16 20:52:13,859 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 11/50
+2023-01-16 20:59:45,973 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0067 - accuracy: 0.9977 - val_loss: 0.0059 - val_accuracy: 0.9980
+2023-01-16 20:59:45,975 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00011: val_accuracy improved from 0.99777 to 0.99796, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-16 20:59:46,181 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 12/50
+2023-01-16 21:07:18,242 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0062 - accuracy: 0.9978 - val_loss: 0.0056 - val_accuracy: 0.9979
+2023-01-16 21:07:18,244 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00012: val_accuracy did not improve from 0.99796
+2023-01-16 21:07:18,246 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 13/50
+2023-01-16 21:14:49,849 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0060 - accuracy: 0.9978 - val_loss: 0.0059 - val_accuracy: 0.9978
+2023-01-16 21:14:49,851 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00013: val_accuracy did not improve from 0.99796
+2023-01-16 21:14:49,854 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 14/50
+2023-01-16 21:22:21,481 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 452s - loss: 0.0060 - accuracy: 0.9978 - val_loss: 0.0065 - val_accuracy: 0.9977
+2023-01-16 21:22:21,483 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00014: val_accuracy did not improve from 0.99796
+2023-01-16 21:22:21,486 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 15/50
+2023-01-16 21:29:52,535 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0058 - accuracy: 0.9979 - val_loss: 0.0053 - val_accuracy: 0.9980
+2023-01-16 21:29:52,537 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00015: val_accuracy improved from 0.99796 to 0.99802, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-16 21:29:52,731 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 16/50
+2023-01-16 21:37:23,803 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0053 - accuracy: 0.9981 - val_loss: 0.0049 - val_accuracy: 0.9982
+2023-01-16 21:37:23,805 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00016: val_accuracy improved from 0.99802 to 0.99819, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-16 21:37:23,976 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 17/50
+2023-01-16 21:44:54,603 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0063 - accuracy: 0.9977 - val_loss: 0.0063 - val_accuracy: 0.9977
+2023-01-16 21:44:54,605 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00017: val_accuracy did not improve from 0.99819
+2023-01-16 21:44:54,607 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 18/50
+2023-01-16 21:52:25,179 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 451s - loss: 0.0051 - accuracy: 0.9981 - val_loss: 0.0053 - val_accuracy: 0.9980
+2023-01-16 21:52:25,181 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00018: val_accuracy did not improve from 0.99819
+2023-01-16 21:52:25,183 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 19/50
+2023-01-16 21:59:55,485 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0049 - accuracy: 0.9982 - val_loss: 0.0059 - val_accuracy: 0.9978
+2023-01-16 21:59:55,488 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00019: val_accuracy did not improve from 0.99819
+2023-01-16 21:59:55,492 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 20/50
+2023-01-16 22:07:25,419 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0047 - accuracy: 0.9982 - val_loss: 0.0045 - val_accuracy: 0.9983
+2023-01-16 22:07:25,421 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00020: val_accuracy improved from 0.99819 to 0.99835, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-16 22:07:25,589 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 21/50
+2023-01-16 22:14:55,593 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0047 - accuracy: 0.9983 - val_loss: 0.0039 - val_accuracy: 0.9986
+2023-01-16 22:14:55,595 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00021: val_accuracy improved from 0.99835 to 0.99859, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-16 22:14:55,734 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 22/50
+2023-01-16 22:22:25,325 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0050 - accuracy: 0.9982 - val_loss: 0.0051 - val_accuracy: 0.9982
+2023-01-16 22:22:25,327 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00022: val_accuracy did not improve from 0.99859
+2023-01-16 22:22:25,329 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 23/50
+2023-01-16 22:29:55,097 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 450s - loss: 0.0042 - accuracy: 0.9985 - val_loss: 0.0049 - val_accuracy: 0.9982
+2023-01-16 22:29:55,098 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00023: val_accuracy did not improve from 0.99859
+2023-01-16 22:29:55,100 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 24/50
+2023-01-16 22:37:24,321 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 449s - loss: 0.0041 - accuracy: 0.9985 - val_loss: 0.0032 - val_accuracy: 0.9988
+2023-01-16 22:37:24,322 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00024: val_accuracy improved from 0.99859 to 0.99883, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-16 22:37:24,506 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 25/50
+2023-01-16 22:44:53,540 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 449s - loss: 0.0040 - accuracy: 0.9985 - val_loss: 0.0041 - val_accuracy: 0.9985
+2023-01-16 22:44:53,541 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00025: val_accuracy did not improve from 0.99883
+2023-01-16 22:44:53,544 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 26/50
+2023-01-16 22:52:22,450 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 449s - loss: 0.0040 - accuracy: 0.9985 - val_loss: 0.0033 - val_accuracy: 0.9988
+2023-01-16 22:52:22,452 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00026: val_accuracy did not improve from 0.99883
+2023-01-16 22:52:22,455 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 27/50
+2023-01-16 22:59:50,984 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 449s - loss: 0.0037 - accuracy: 0.9986 - val_loss: 0.0046 - val_accuracy: 0.9983
+2023-01-16 22:59:50,986 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00027: val_accuracy did not improve from 0.99883
+2023-01-16 22:59:50,989 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 28/50
+2023-01-16 23:07:19,984 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 449s - loss: 0.0037 - accuracy: 0.9986 - val_loss: 0.0049 - val_accuracy: 0.9983
+2023-01-16 23:07:19,986 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00028: val_accuracy did not improve from 0.99883
+2023-01-16 23:07:19,989 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 29/50
+2023-01-16 23:14:48,807 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 449s - loss: 0.0036 - accuracy: 0.9987 - val_loss: 0.0037 - val_accuracy: 0.9986
+2023-01-16 23:14:48,808 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00029: val_accuracy did not improve from 0.99883
+2023-01-16 23:14:48,811 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 30/50
+2023-01-16 23:22:17,235 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 448s - loss: 0.0034 - accuracy: 0.9988 - val_loss: 0.0031 - val_accuracy: 0.9989
+2023-01-16 23:22:17,237 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00030: val_accuracy improved from 0.99883 to 0.99889, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-16 23:22:17,424 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 31/50
+2023-01-16 23:29:45,798 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 448s - loss: 0.0036 - accuracy: 0.9987 - val_loss: 0.0034 - val_accuracy: 0.9987
+2023-01-16 23:29:45,800 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00031: val_accuracy did not improve from 0.99889
+2023-01-16 23:29:45,804 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 32/50
+2023-01-16 23:37:13,841 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 448s - loss: 0.0032 - accuracy: 0.9988 - val_loss: 0.0028 - val_accuracy: 0.9990
+2023-01-16 23:37:13,842 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00032: val_accuracy improved from 0.99889 to 0.99896, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-16 23:37:14,016 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 33/50
+2023-01-16 23:44:42,105 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 448s - loss: 0.0032 - accuracy: 0.9988 - val_loss: 0.0029 - val_accuracy: 0.9989
+2023-01-16 23:44:42,107 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00033: val_accuracy did not improve from 0.99896
+2023-01-16 23:44:42,109 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 34/50
+2023-01-16 23:52:09,907 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 448s - loss: 0.0030 - accuracy: 0.9989 - val_loss: 0.0030 - val_accuracy: 0.9989
+2023-01-16 23:52:09,910 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00034: val_accuracy did not improve from 0.99896
+2023-01-16 23:52:09,912 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 35/50
+2023-01-16 23:59:37,836 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 448s - loss: 0.0029 - accuracy: 0.9989 - val_loss: 0.0027 - val_accuracy: 0.9990
+2023-01-16 23:59:37,839 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00035: val_accuracy improved from 0.99896 to 0.99899, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-16 23:59:38,088 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 36/50
+2023-01-17 00:07:05,687 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 448s - loss: 0.0030 - accuracy: 0.9989 - val_loss: 0.0027 - val_accuracy: 0.9990
+2023-01-17 00:07:05,689 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00036: val_accuracy improved from 0.99899 to 0.99901, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-17 00:07:05,897 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 37/50
+2023-01-17 00:14:33,230 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 447s - loss: 0.0027 - accuracy: 0.9990 - val_loss: 0.0026 - val_accuracy: 0.9990
+2023-01-17 00:14:33,232 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00037: val_accuracy improved from 0.99901 to 0.99901, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-17 00:14:33,396 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 38/50
+2023-01-17 00:22:00,724 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 447s - loss: 0.0026 - accuracy: 0.9990 - val_loss: 0.0026 - val_accuracy: 0.9990
+2023-01-17 00:22:00,729 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00038: val_accuracy did not improve from 0.99901
+2023-01-17 00:22:00,732 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 39/50
+2023-01-17 00:29:28,215 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 447s - loss: 0.0026 - accuracy: 0.9990 - val_loss: 0.0026 - val_accuracy: 0.9990
+2023-01-17 00:29:28,216 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00039: val_accuracy improved from 0.99901 to 0.99904, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-17 00:29:28,433 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 40/50
+2023-01-17 00:36:55,992 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 448s - loss: 0.0031 - accuracy: 0.9989 - val_loss: 0.0045 - val_accuracy: 0.9984
+2023-01-17 00:36:55,995 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00040: val_accuracy did not improve from 0.99904
+2023-01-17 00:36:55,997 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 41/50
+2023-01-17 00:44:23,519 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 448s - loss: 0.0027 - accuracy: 0.9990 - val_loss: 0.0020 - val_accuracy: 0.9992
+2023-01-17 00:44:23,521 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00041: val_accuracy improved from 0.99904 to 0.99923, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-17 00:44:23,703 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 42/50
+2023-01-17 00:51:50,563 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 447s - loss: 0.0022 - accuracy: 0.9992 - val_loss: 0.0020 - val_accuracy: 0.9992
+2023-01-17 00:51:50,565 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00042: val_accuracy improved from 0.99923 to 0.99924, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-17 00:51:50,735 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 43/50
+2023-01-17 00:59:17,483 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 447s - loss: 0.0022 - accuracy: 0.9992 - val_loss: 0.0025 - val_accuracy: 0.9990
+2023-01-17 00:59:17,485 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00043: val_accuracy did not improve from 0.99924
+2023-01-17 00:59:17,487 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 44/50
+2023-01-17 01:06:44,556 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 447s - loss: 0.0022 - accuracy: 0.9992 - val_loss: 0.0023 - val_accuracy: 0.9991
+2023-01-17 01:06:44,558 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00044: val_accuracy did not improve from 0.99924
+2023-01-17 01:06:44,561 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 45/50
+2023-01-17 01:14:11,422 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 447s - loss: 0.0022 - accuracy: 0.9992 - val_loss: 0.0018 - val_accuracy: 0.9993
+2023-01-17 01:14:11,428 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00045: val_accuracy improved from 0.99924 to 0.99934, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-17 01:14:11,603 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 46/50
+2023-01-17 01:21:38,376 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 447s - loss: 0.0020 - accuracy: 0.9993 - val_loss: 0.0021 - val_accuracy: 0.9993
+2023-01-17 01:21:38,379 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00046: val_accuracy did not improve from 0.99934
+2023-01-17 01:21:38,381 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 47/50
+2023-01-17 01:29:05,165 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 447s - loss: 0.0021 - accuracy: 0.9992 - val_loss: 0.0018 - val_accuracy: 0.9994
+2023-01-17 01:29:05,167 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00047: val_accuracy improved from 0.99934 to 0.99936, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-17 01:29:05,353 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 48/50
+2023-01-17 01:36:32,277 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 447s - loss: 0.0020 - accuracy: 0.9993 - val_loss: 0.0025 - val_accuracy: 0.9990
+2023-01-17 01:36:32,279 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00048: val_accuracy did not improve from 0.99936
+2023-01-17 01:36:32,281 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 49/50
+2023-01-17 01:43:58,907 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 447s - loss: 0.0020 - accuracy: 0.9993 - val_loss: 0.0026 - val_accuracy: 0.9990
+2023-01-17 01:43:58,909 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00049: val_accuracy did not improve from 0.99936
+2023-01-17 01:43:58,912 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 50/50
+2023-01-17 01:51:25,373 - rodan.jobs.Paco_classifier.fast_paco_trainer - 625/625 - 446s - loss: 0.0019 - accuracy: 0.9993 - val_loss: 0.0017 - val_accuracy: 0.9994
+2023-01-17 01:51:25,375 - rodan.jobs.Paco_classifier.fast_paco_trainer - Epoch 00050: val_accuracy improved from 0.99936 to 0.99940, saving model to /tmp/tmpjs1hh4sf/a7829323-1d43-4605-9358-acaddba5757d.hdf5
+2023-01-17 01:51:25,548 - rodan.jobs.Paco_classifier.fast_paco_trainer - Finishing the Fast CM trainer job.
