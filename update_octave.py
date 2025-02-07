@@ -1,0 +1,29 @@
+import xml.etree.ElementTree as ET
+
+def update_clef_line(file_path):
+    tree = ET.parse(file_path)
+    root_element = tree.getroot()
+    in_c_clef = False
+    changes_made = 0
+    
+    for elem in root_element.iter():
+        if elem.tag.endswith('}clef'):
+            if elem.get('shape') == 'C':
+                in_c_clef = True
+                elem_id = elem.get('xml:id') or elem.get('facs', 'Unknown location')
+                print("Found C clef at {}".format(elem_id))
+            else:
+                in_c_clef = False
+        
+        if in_c_clef and elem.get('oct'):
+            current_oct = int(elem.get('oct'))
+            elem.set('oct', str(current_oct + 1))
+            changes_made += 1
+            elem_id = elem.get('xml:id') or elem.get('facs', 'Unknown location')
+            print("Updated octave from {} to {} at {}".format(current_oct, current_oct + 1, elem_id))
+
+    print("\nTotal octave changes made: {}".format(changes_made))
+    tree.write(file_path + '.updated', encoding='utf-8', xml_declaration=True)
+
+file_path = "/Users/kyriebouressa/Documents/e2e-omr-resources/resulting_mei_files/Einsiedeln/reviewed_once/CH-E_611_094r.mei"
+update_clef_line(file_path)
