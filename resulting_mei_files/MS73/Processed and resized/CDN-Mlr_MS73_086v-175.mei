@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
+    <meiHead xml:id="m-c51c2c07-2c85-4fd2-a084-8bfff5a0e26d">
+        <fileDesc xml:id="m-b3948968-1131-4240-adc6-cc230a972104">
+            <titleStmt xml:id="m-757fbba7-c736-42a0-b4ac-0ed3c2ac354f">
+                <title xml:id="m-888ff210-ecdb-4d01-a52a-b5ef850c3c7d">MEI Encoding Output (1.0.0)</title>
+            </titleStmt>
+            <pubStmt xml:id="m-16ed27f9-8781-4908-9264-87f79c6e51ca"/>
+        </fileDesc>
+    </meiHead>
+    <music>
+        <facsimile xml:id="m-ba99051a-75a8-4220-b824-92ca06774a29" type="transcription">
+            <surface xml:id="m-12428ceb-ea4d-4c9a-9c5c-a20bceeabb97" lrx="9090" lry="13438">
+                <zone xml:id="m-318cd9e4-fd36-4e00-8c19-ab9be5e3c534" lrx="8458" lry="2702" rotate="0.720437" ulx="3126" uly="1916"/>
+                <zone xml:id="m267jch" lrx="8452" lry="4052" ulx="3126" uly="3318"/>
+                <zone xml:id="bq0ylxh" lrx="8420" lry="5506" ulx="3072" uly="4784"/>
+                <zone xml:id="peme2l4" lrx="8458" lry="6926" ulx="3134" uly="6210"/>
+                <zone xml:id="h1aqfhqg" lrx="8374" lry="8356" rotate="-0.592357" ulx="3126" uly="7584"/>
+                <zone xml:id="z1d5etjk" lrx="8420" lry="9814" rotate="-0.919930" ulx="3110" uly="8990"/>
+            </surface>
+        </facsimile>
+        <body>
+            <mdiv xml:id="m-7e7bae55-7303-4c81-9249-0f1d5936411e">
+                <score xml:id="m-c4be1107-b79c-4fec-be5d-b6e0d78be2c6">
+                    <scoreDef xml:id="m-33fb27d7-bb16-446a-959d-c65c8289fb91">
+                        <staffGrp xml:id="m-7f871a1a-e973-4842-8873-76accbd93f14">
+                            <staffDef xml:id="m-3a2b78c7-7f8b-4a44-b9dc-c5f05a355f62" n="1" notationtype="neume" lines="4" clef.shape="C" clef.line="4"/>
+                        </staffGrp>
+                    </scoreDef>
+                    <section xml:id="m-1a0dc4a1-db15-4268-a5e5-14370c041d6f">
+                        <staff n="1">
+                            <layer n="1">
+                                <pb xml:id="m-cbe73aeb-b3bc-48f1-b631-458b66d83370" facs="#m-12428ceb-ea4d-4c9a-9c5c-a20bceeabb97"/>
+                                <sb n="1" facs="#m-318cd9e4-fd36-4e00-8c19-ab9be5e3c534" xml:id="m-c029affe-be6a-410f-835b-274fbab6646c"/>
+                                <sb n="2" facs="#m267jch" xml:id="e1vna8g2"/>
+                                <sb n="3" facs="#bq0ylxh" xml:id="e1nb4ysc"/>
+                                <sb n="4" facs="#peme2l4" xml:id="mj95ey3"/>
+                                <sb n="5" facs="#h1aqfhqg" xml:id="d7sjzg1"/>
+                                <sb n="6" facs="#z1d5etjk" xml:id="i1jezzzg"/>
+                            </layer>
+                        </staff>
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>
