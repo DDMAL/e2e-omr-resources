@@ -1,6 +1,6 @@
 # e2e-omr-resources
 
-For running an end-to-end OMR workflow, you need the resources indicated in the [end-to-end OMR documentation]([http://ddmal.music.mcgill.ca/e2e-omr-documentation/#digital-resources](https://ddmal.ca/e2e-omr-documentation/)). In this repository you can find these resources, some are applicable to different manuscripts, while others are manuscript-specific:
+This repository contains all the resources needed to run an end-to-end OMR worklow in Rodan; some are applicable to different manuscripts, while others are manuscript-specific. A step-by-step guide on using Rodan and running an end-to-end workflow for first-time users can be found [here](https://ddmal.ca/e2e-omr-documentation/), and a more in-depth guide of the various Rodan jobs can be found [here](https://github.com/DDMAL/e2e-omr-resources/wiki). 
 
 -	The *document analysis* or *document segmentation* models. These models are used to segment the image of a manuscript page into different layers (e.g., music symbol layer, staff-line layer, text, and background layer). The models are trained to identify the pixels belonging to a particular layer. 
 
