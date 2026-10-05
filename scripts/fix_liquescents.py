@@ -113,11 +113,13 @@ def process(text: str):
         if curve is not None and not liquescents:
             findings.append((MISSING, nc_id, curve))
             pad = indent_of(text, start)
-            body = open_tag[:-2].rstrip() + ">"
             child = f"<liquescent xml:id=\"{new_xml_id()}\"/>"
-            edits.append(
-                (start, end, f"{body}\n{pad}    {child}\n{pad}</nc>")
-            )
+            if inner is None:  # <nc .../>  -> expand into open/close tags
+                body = open_tag[:-2].rstrip() + ">"
+                replacement = f"{body}\n{pad}    {child}\n{pad}</nc>"
+            else:  # <nc ...>...</nc> without a liquescent: insert as first child
+                replacement = f"{open_tag}\n{pad}    {child}{inner}</nc>"
+            edits.append((start, end, replacement))
 
         elif curve is not None and len(liquescents) > 1:
             findings.append((DUPLICATE, nc_id, curve))
@@ -161,7 +163,7 @@ def verify(text: str) -> None:
                 f"curve={curve} but {len(children)} liquescent children"
             )
         if curve is None and children:
-            return  # NO_CURVE is expected to survive; reported, not fixed
+            continue  # NO_CURVE is expected to survive; reported, not fixed
 
 
 def main(argv: list[str] | None = None) -> int:
