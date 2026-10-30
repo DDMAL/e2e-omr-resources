@@ -9,10 +9,11 @@ Correct encoding (per DDMAL/Rodan#1123):
         </nc>
     </neume>
 
-This script repairs two defects introduced by the pre-2024 mei_encoding /
-Neon pipeline, and reports a third that cannot be repaired automatically:
+This script repairs two defects left by the 2024 mei_encoding / Neon
+pipeline (before the Rodan#1123 fix), and reports a third that cannot be
+repaired automatically:
 
-  MISSING_LIQUESCENT  <nc ... curve="x"/> with no child <liquescent/>
+  MISSING_LIQUESCENT  <nc ... curve="x"> with no child <liquescent/>
                       -> a <liquescent/> child is inserted.
   DUPLICATE_LIQUESCENT  <nc ... curve="x"> with 2+ <liquescent/> children
                       -> all but the first are removed.
@@ -21,8 +22,8 @@ Neon pipeline, and reports a third that cannot be repaired automatically:
                          "c" down) cannot be inferred from the file; it has
                          to be read off the manuscript image by a human.
 
-Edits are made textually, one line at a time, so untouched lines keep their
-original bytes and the git diff stays small.
+Edits are made on the raw text rather than by re-serializing the XML, so
+untouched lines keep their original bytes and the git diff stays small.
 
 Usage:
     python3 fix_liquescents.py DIR [DIR ...]                 # dry run
@@ -150,7 +151,8 @@ def process(text: str):
 
 
 def verify(text: str) -> None:
-    """Re-parse the result and assert every nc is now well formed."""
+    """Re-parse the result and check that every nc with a curve has exactly
+    one liquescent child. NO_CURVE elements are reported, not checked here."""
     from lxml import etree
 
     root = etree.fromstring(text.encode("utf-8"))
@@ -162,8 +164,6 @@ def verify(text: str) -> None:
                 f"nc {nc.get('{http://www.w3.org/XML/1998/namespace}id')}: "
                 f"curve={curve} but {len(children)} liquescent children"
             )
-        if curve is None and children:
-            continue  # NO_CURVE is expected to survive; reported, not fixed
 
 
 def main(argv: list[str] | None = None) -> int:
